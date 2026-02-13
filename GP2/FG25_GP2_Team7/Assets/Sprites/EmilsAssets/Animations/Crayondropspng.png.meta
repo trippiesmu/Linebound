@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 795d457357ea4a64faaa75325f20bb9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1895526493190021164
+    second: Crayondropspng_0
+  - first:
+      213: -7254351737409857782
+    second: Crayondropspng_1
+  - first:
+      213: 7081944576209274791
+    second: Crayondropspng_2
+  - first:
+      213: 2695648233819131804
+    second: Crayondropspng_3
+  - first:
+      213: -3326726297554374886
+    second: Crayondropspng_4
+  - first:
+      213: -9193490142033835287
+    second: Crayondropspng_5
+  - first:
+      213: 7720798818957979848
+    second: Crayondropspng_6
+  - first:
+      213: 1655419260255075662
+    second: Crayondropspng_7
+  - first:
+      213: -6833311534661317337
+    second: Crayondropspng_8
+  - first:
+      213: 4701755671977189379
+    second: Crayondropspng_9
+  - first:
+      213: 770470258934592499
+    second: Crayondropspng_10
+  - first:
+      213: -187121647197573799
+    second: Crayondropspng_11
+  - first:
+      213: 831454903711825247
+    second: Crayondropspng_12
+  - first:
+      213: 2152627174365978426
+    second: Crayondropspng_13
+  - first:
+      213: -139674874242364642
+    second: Crayondropspng_14
+  - first:
+      213: -7527706057054419828
+    second: Crayondropspng_15
+  - first:
+      213: 222953831049049102
+    second: Crayondropspng_16
+  - first:
+      213: 7412427625852042773
+    second: Crayondropspng_17
+  - first:
+      213: -8489787795999574014
+    second: Crayondropspng_18
+  - first:
+      213: -3998504299757417131
+    second: Crayondropspng_19
+  - first:
+      213: -6151697778899491161
+    second: Crayondropspng_20
+  - first:
+      213: -6549149490613714235
+    second: Crayondropspng_21
+  - first:
+      213: -8015581798073078847
+    second: Crayondropspng_22
+  - first:
+      213: -6473603454131309294
+    second: Crayondropspng_23
+  - first:
+      213: 759286666749474223
+    second: Crayondropspng_24
+  - first:
+      213: 1941485514141622310
+    second: Crayondropspng_25
+  - first:
+      213: -7405228415541013718
+    second: Crayondropspng_26
+  - first:
+      213: 2205848874302263424
+    second: Crayondropspng_27
+  - first:
+      213: 5898785114545472578
+    second: Crayondropspng_28
+  - first:
+      213: -2206273944378707122
+    second: Crayondropspng_29
+  - first:
+      213: -5146146424383464067
+    second: Crayondropspng_30
+  - first:
+      213: -3798255173770351194
+    second: Crayondropspng_31
+  - first:
+      213: 5259871663572592014
+    second: Crayondropspng_32
+  - first:
+      213: 7730967400683340823
+    second: Crayondropspng_33
+  - first:
+      213: 572769728035643779
+    second: Crayondropspng_34
+  - first:
+      213: -8570272823861579035
+    second: Crayondropspng_35
+  - first:
+      213: -1117437436513637418
+    second: Crayondropspng_36
+  - first:
+      213: -1580743049992118324
+    second: Crayondropspng_37
+  - first:
+      213: 3760182902589614133
+    second: Crayondropspng_38
+  - first:
+      213: 411240566185820906
+    second: Crayondropspng_39
+  - first:
+      213: 8965343767599327025
+    second: Crayondropspng_40
+  - first:
+      213: 8023399028619790678
+    second: Crayondropspng_41
+  - first:
+      213: 695495914935878250
+    second: Crayondropspng_42
+  - first:
+      213: -5757983879951766576
+    second: Crayondropspng_43
+  - first:
+      213: -3283110984777823337
+    second: Crayondropspng_44
+  - first:
+      213: 4671341093982481991
+    second: Crayondropspng_45
+  - first:
+      213: -8383593592291027606
+    second: Crayondropspng_46
+  - first:
+      213: -129251223042187238
+    second: Crayondropspng_47
+  - first:
+      213: -2684821806187023763
+    second: Crayondropspng_48
+  - first:
+      213: -3597307042601875896
+    second: Crayondropspng_49
+  - first:
+      213: 56951225153301482
+    second: Crayondropspng_50
+  - first:
+      213: -5759997231665248231
+    second: Crayondropspng_51
+  - first:
+      213: -6001918770938040300
+    second: Crayondropspng_52
+  - first:
+      213: 3918609192073978814
+    second: Crayondropspng_53
+  - first:
+      213: -8644953766074039931
+    second: Crayondropspng_54
+  - first:
+      213: -310782635940180034
+    second: Crayondropspng_55
+  - first:
+      213: 5500752384438943908
+    second: Crayondropspng_56
+  - first:
+      213: -5752324647988113636
+    second: Crayondropspng_57
+  - first:
+      213: -6462519048507407847
+    second: Crayondropspng_58
+  - first:
+      213: -5427953708232036012
+    second: Crayondropspng_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crayondropspng_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df111782bcb1b5e0800000000000000
+      internalID: -1895526493190021164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crayondropspng_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0792ffa78d535b90800000000000000
+      internalID: -7254351737409857782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crayondropspng_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a745fff11f184260800000000000000
+      internalID: 7081944576209274791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crayondropspng_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fc23859cdd86520800000000000000
+      internalID: 2695648233819131804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3d4d707aad9386e409a22768e401faee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":150.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Crayondropspng_0: -1895526493190021164
+      Crayondropspng_1: -7254351737409857782
+      Crayondropspng_2: 7081944576209274791
+      Crayondropspng_3: 2695648233819131804
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

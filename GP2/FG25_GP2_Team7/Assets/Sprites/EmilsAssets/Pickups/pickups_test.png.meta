@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: e8df3f08e3ef27a4493103cd41fba53f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1720431374481958690
+    second: pickups_test_0
+  - first:
+      213: -7937454480178122100
+    second: pickups_test_1
+  - first:
+      213: -3350606788494028710
+    second: pickups_test_2
+  - first:
+      213: 1554768290433059927
+    second: pickups_test_3
+  - first:
+      213: 5516813552681472032
+    second: pickups_test_4
+  - first:
+      213: -7912559400983909347
+    second: pickups_test_5
+  - first:
+      213: -5224345292546643722
+    second: pickups_test_6
+  - first:
+      213: 2215636607775923974
+    second: pickups_test_7
+  - first:
+      213: 170438125138103995
+    second: pickups_test_8
+  - first:
+      213: -5732674947845116728
+    second: pickups_test_9
+  - first:
+      213: 600593152891659786
+    second: pickups_test_10
+  - first:
+      213: 6432763103744126124
+    second: pickups_test_11
+  - first:
+      213: -1142691068393069244
+    second: pickups_test_12
+  - first:
+      213: -2287655197441732098
+    second: pickups_test_13
+  - first:
+      213: 5697140608613462735
+    second: pickups_test_14
+  - first:
+      213: 9127154818147940765
+    second: pickups_test_15
+  - first:
+      213: -398945123676489629
+    second: pickups_test_16
+  - first:
+      213: -5892621480709190761
+    second: pickups_test_17
+  - first:
+      213: -4670912415252487060
+    second: pickups_test_18
+  - first:
+      213: -846969680795410977
+    second: pickups_test_19
+  - first:
+      213: 6197680113164872531
+    second: pickups_test_20
+  - first:
+      213: -493878684026275901
+    second: pickups_test_21
+  - first:
+      213: -8214369564177794284
+    second: pickups_test_22
+  - first:
+      213: 6976862903346293394
+    second: pickups_test_23
+  - first:
+      213: -948587546643486392
+    second: pickups_test_24
+  - first:
+      213: -1217172591147507867
+    second: pickups_test_25
+  - first:
+      213: 3506311410015857875
+    second: pickups_test_26
+  - first:
+      213: -450462149867210507
+    second: pickups_test_27
+  - first:
+      213: 1179803160455497087
+    second: pickups_test_28
+  - first:
+      213: 5310168275942672819
+    second: pickups_test_29
+  - first:
+      213: -8026293885052133159
+    second: pickups_test_30
+  - first:
+      213: 4833376090501345873
+    second: pickups_test_31
+  - first:
+      213: -6344257603882832786
+    second: pickups_test_32
+  - first:
+      213: 3418027357877178639
+    second: pickups_test_33
+  - first:
+      213: -7601844730331259582
+    second: pickups_test_34
+  - first:
+      213: 1463935058516484293
+    second: pickups_test_35
+  - first:
+      213: 4758428253741292801
+    second: pickups_test_36
+  - first:
+      213: -1613076593382976277
+    second: pickups_test_37
+  - first:
+      213: 8246111114610554921
+    second: pickups_test_38
+  - first:
+      213: -6141400532169797577
+    second: pickups_test_39
+  - first:
+      213: -7253885493272379614
+    second: pickups_test_40
+  - first:
+      213: -9052992941059004520
+    second: pickups_test_41
+  - first:
+      213: 7192235822718865604
+    second: pickups_test_42
+  - first:
+      213: 7799957098043562773
+    second: pickups_test_43
+  - first:
+      213: -7490742431972496286
+    second: pickups_test_44
+  - first:
+      213: 1896248332485591796
+    second: pickups_test_45
+  - first:
+      213: -1643716928864302937
+    second: pickups_test_46
+  - first:
+      213: 8158086890606608052
+    second: pickups_test_47
+  - first:
+      213: 57688345017747058
+    second: pickups_test_48
+  - first:
+      213: -3311802394431388251
+    second: pickups_test_49
+  - first:
+      213: -7766756484563429100
+    second: pickups_test_50
+  - first:
+      213: -3712676137516229401
+    second: pickups_test_51
+  - first:
+      213: 7722775780271129604
+    second: pickups_test_52
+  - first:
+      213: 1963075559736667620
+    second: pickups_test_53
+  - first:
+      213: 2181246920390198895
+    second: pickups_test_54
+  - first:
+      213: 8566945090006215250
+    second: pickups_test_55
+  - first:
+      213: -1596096654966364930
+    second: pickups_test_56
+  - first:
+      213: -3864531861649469680
+    second: pickups_test_57
+  - first:
+      213: 5920337561356050719
+    second: pickups_test_58
+  - first:
+      213: -4763539075858125125
+    second: pickups_test_59
+  - first:
+      213: 3729729241837659757
+    second: pickups_test_60
+  - first:
+      213: -227372127203883554
+    second: pickups_test_61
+  - first:
+      213: 5278326679866791600
+    second: pickups_test_62
+  - first:
+      213: 1863105784718867916
+    second: pickups_test_63
+  - first:
+      213: -8603277478023621483
+    second: pickups_test_64
+  - first:
+      213: -8336939808687370029
+    second: pickups_test_65
+  - first:
+      213: -2853896439616793697
+    second: pickups_test_66
+  - first:
+      213: -3792931511892765529
+    second: pickups_test_67
+  - first:
+      213: -4937762207751625468
+    second: pickups_test_68
+  - first:
+      213: 1127236803551861239
+    second: pickups_test_69
+  - first:
+      213: -6603085256446495562
+    second: pickups_test_70
+  - first:
+      213: -2313673623010435018
+    second: pickups_test_71
+  - first:
+      213: -7605345833487479417
+    second: pickups_test_72
+  - first:
+      213: 2630963131600858820
+    second: pickups_test_73
+  - first:
+      213: -5554794421545407317
+    second: pickups_test_74
+  - first:
+      213: -4938264475541559295
+    second: pickups_test_75
+  - first:
+      213: 8401593950723593036
+    second: pickups_test_76
+  - first:
+      213: -7162073072935696357
+    second: pickups_test_77
+  - first:
+      213: 5740901578072792839
+    second: pickups_test_78
+  - first:
+      213: -7978197025845830299
+    second: pickups_test_79
+  - first:
+      213: -7141428277448989840
+    second: pickups_test_80
+  - first:
+      213: 484232610828390405
+    second: pickups_test_81
+  - first:
+      213: 3566770679276736707
+    second: pickups_test_82
+  - first:
+      213: 8780958218640401700
+    second: pickups_test_83
+  - first:
+      213: -4195244161914621742
+    second: pickups_test_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pickups_test_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 184
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2272f68483330e710800000000000000
+      internalID: 1720431374481958690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickups_test_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 250
+        width: 184
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c827628643f78d190800000000000000
+      internalID: -7937454480178122100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickups_test_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 250
+        width: 184
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a501dcdc0e04081d0800000000000000
+      internalID: -3350606788494028710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickups_test_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 184
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ccd4bc585a39510800000000000000
+      internalID: 1554768290433059927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickups_test_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 184
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020d3a362b8af8c40800000000000000
+      internalID: 5516813552681472032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickups_test_5
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 184
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c2d28b521f03290800000000000000
+      internalID: -7912559400983909347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b22248b5088ece74fbd5bbd79b33f505
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":184.0,"y":250.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      pickups_test_0: 1720431374481958690
+      pickups_test_1: -7937454480178122100
+      pickups_test_2: -3350606788494028710
+      pickups_test_3: 1554768290433059927
+      pickups_test_4: 5516813552681472032
+      pickups_test_5: -7912559400983909347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: b6c2c5db6ee8de0419a8e8ca77a633f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8647390008448779204
+    second: SplashScreen 1_0
+  - first:
+      213: -7793172488911000946
+    second: SplashScreen 1_1
+  - first:
+      213: 1463649366779079595
+    second: SplashScreen 1_2
+  - first:
+      213: 6534708789909636260
+    second: SplashScreen 1_3
+  - first:
+      213: 3895219366576847208
+    second: SplashScreen 1_4
+  - first:
+      213: 3594593917938665790
+    second: SplashScreen 1_5
+  - first:
+      213: 2611696154579197772
+    second: SplashScreen 1_6
+  - first:
+      213: 2549817408476806649
+    second: SplashScreen 1_7
+  - first:
+      213: 3255406540502538881
+    second: SplashScreen 1_8
+  - first:
+      213: -6641974046157330069
+    second: SplashScreen 1_9
+  - first:
+      213: -2504002193370817625
+    second: SplashScreen 1_10
+  - first:
+      213: -1804602455535058656
+    second: SplashScreen 1_11
+  - first:
+      213: -2718975904353516813
+    second: SplashScreen 1_12
+  - first:
+      213: 8563557676506523215
+    second: SplashScreen 1_13
+  - first:
+      213: 4594049756516537428
+    second: SplashScreen 1_14
+  - first:
+      213: -818831394445181006
+    second: SplashScreen 1_15
+  - first:
+      213: -8429737323118114451
+    second: SplashScreen 1_16
+  - first:
+      213: -7103488100427699638
+    second: SplashScreen 1_17
+  - first:
+      213: -2209785032378778580
+    second: SplashScreen 1_18
+  - first:
+      213: 4981843228298573629
+    second: SplashScreen 1_19
+  - first:
+      213: -7795774330710448403
+    second: SplashScreen 1_20
+  - first:
+      213: -5541965563672333815
+    second: SplashScreen 1_21
+  - first:
+      213: 3519324280736287221
+    second: SplashScreen 1_22
+  - first:
+      213: -7564127513844667779
+    second: SplashScreen 1_23
+  - first:
+      213: 1177423811374721793
+    second: SplashScreen 1_24
+  - first:
+      213: 4293157432367978236
+    second: SplashScreen 1_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SplashScreen 1_0
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 667
+        width: 758
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c30ad79563b10870800000000000000
+      internalID: 8647390008448779204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_1
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 509
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8aec1d49e619d390800000000000000
+      internalID: -7793172488911000946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_2
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 514
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baba796285def4410800000000000000
+      internalID: 1463649366779079595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_3
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 514
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4cf25a503ffaa50800000000000000
+      internalID: 6534708789909636260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_4
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 517
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869f80b40699e0630800000000000000
+      internalID: 3895219366576847208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_5
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 518
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3983869f1092e130800000000000000
+      internalID: 3594593917938665790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_6
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 495
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f52f2b0db9e3420800000000000000
+      internalID: 2611696154579197772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_7
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 412
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdfd5a6c65c26320800000000000000
+      internalID: 2549817408476806649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_8
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 416
+        width: 225
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a132e20078d2d20800000000000000
+      internalID: 3255406540502538881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_9
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 420
+        width: 272
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69ad63bbc7f2d3a0800000000000000
+      internalID: -6641974046157330069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_10
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 259
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab555b954fff3dd0800000000000000
+      internalID: -2504002193370817625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_11
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 259
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021090db0a3c4f6e0800000000000000
+      internalID: -1804602455535058656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_12
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 259
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2892c12d1444ad0800000000000000
+      internalID: -2718975904353516813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_13
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 259
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46adb9c55ed7d670800000000000000
+      internalID: 8563557676506523215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_14
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 163
+        width: 152
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45453a9c9e751cf30800000000000000
+      internalID: 4594049756516537428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_15
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 209
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf38236f2de2a4f0800000000000000
+      internalID: -818831394445181006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_16
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 277
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6941b9319e830b80800000000000000
+      internalID: -8429737323118114451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_17
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 210
+        width: 38
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4aeac365375b6d90800000000000000
+      internalID: -7103488100427699638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_18
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 211
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c761398344551e0800000000000000
+      internalID: -2209785032378778580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_19
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 211
+        width: 21
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37fb6d6500132540800000000000000
+      internalID: 4981843228298573629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_20
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 191
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de625eccc88dfc390800000000000000
+      internalID: -7795774330710448403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_21
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902fcd3beabf613b0800000000000000
+      internalID: -5541965563672333815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_22
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 211
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f981b289c627d030800000000000000
+      internalID: 3519324280736287221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_23
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 211
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7aa7854a12d60790800000000000000
+      internalID: -7564127513844667779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_24
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 211
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ba31bd7bc075010800000000000000
+      internalID: 1177423811374721793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashScreen 1_25
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 211
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf61f1940fb549b30800000000000000
+      internalID: 4293157432367978236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SplashScreen 1_0: 8647390008448779204
+      SplashScreen 1_1: -7793172488911000946
+      SplashScreen 1_10: -2504002193370817625
+      SplashScreen 1_11: -1804602455535058656
+      SplashScreen 1_12: -2718975904353516813
+      SplashScreen 1_13: 8563557676506523215
+      SplashScreen 1_14: 4594049756516537428
+      SplashScreen 1_15: -818831394445181006
+      SplashScreen 1_16: -8429737323118114451
+      SplashScreen 1_17: -7103488100427699638
+      SplashScreen 1_18: -2209785032378778580
+      SplashScreen 1_19: 4981843228298573629
+      SplashScreen 1_2: 1463649366779079595
+      SplashScreen 1_20: -7795774330710448403
+      SplashScreen 1_21: -5541965563672333815
+      SplashScreen 1_22: 3519324280736287221
+      SplashScreen 1_23: -7564127513844667779
+      SplashScreen 1_24: 1177423811374721793
+      SplashScreen 1_25: 4293157432367978236
+      SplashScreen 1_3: 6534708789909636260
+      SplashScreen 1_4: 3895219366576847208
+      SplashScreen 1_5: 3594593917938665790
+      SplashScreen 1_6: 2611696154579197772
+      SplashScreen 1_7: 2549817408476806649
+      SplashScreen 1_8: 3255406540502538881
+      SplashScreen 1_9: -6641974046157330069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

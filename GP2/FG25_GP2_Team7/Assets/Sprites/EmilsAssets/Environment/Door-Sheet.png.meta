@@ -1,0 +1,727 @@
+fileFormatVersion: 2
+guid: 00eacdb3038a5dc46ace5b0d0b08c0bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2774111426448763615
+    second: Door-Sheet_0
+  - first:
+      213: -4109463427754199131
+    second: Door-Sheet_1
+  - first:
+      213: -2883751553598282177
+    second: Door-Sheet_2
+  - first:
+      213: -2026103275926937954
+    second: Door-Sheet_3
+  - first:
+      213: 5813376728233583217
+    second: Door-Sheet_4
+  - first:
+      213: -6539469505518656722
+    second: Door-Sheet_5
+  - first:
+      213: 7830265234838795941
+    second: Door-Sheet_6
+  - first:
+      213: -6657250246401462530
+    second: Door-Sheet_7
+  - first:
+      213: -2432345321366159573
+    second: Door-Sheet_8
+  - first:
+      213: 7848126539924955788
+    second: Door-Sheet_9
+  - first:
+      213: 7320424105233489653
+    second: Door-Sheet_10
+  - first:
+      213: -5274532506856338390
+    second: Door-Sheet_11
+  - first:
+      213: -3845852968441994048
+    second: Door-Sheet_12
+  - first:
+      213: -6738054214350678758
+    second: Door-Sheet_13
+  - first:
+      213: 5186854671648630142
+    second: Door-Sheet_14
+  - first:
+      213: -2929099106688921677
+    second: Door-Sheet_15
+  - first:
+      213: -7200545022830913918
+    second: Door-Sheet_16
+  - first:
+      213: -608702125629989764
+    second: Door-Sheet_17
+  - first:
+      213: 817967055897189151
+    second: Door-Sheet_18
+  - first:
+      213: 1728041555647366983
+    second: Door-Sheet_19
+  - first:
+      213: 2515444037936858706
+    second: Door-Sheet_20
+  - first:
+      213: -8709384343039206274
+    second: Door-Sheet_21
+  - first:
+      213: 4012048792429590557
+    second: Door-Sheet_22
+  - first:
+      213: 1016580230744610062
+    second: Door-Sheet_23
+  - first:
+      213: 5657873230122322199
+    second: Door-Sheet_24
+  - first:
+      213: 2337547949059972772
+    second: Door-Sheet_25
+  - first:
+      213: 7005159516807784091
+    second: Door-Sheet_26
+  - first:
+      213: 3065232785703044202
+    second: Door-Sheet_27
+  - first:
+      213: 3625862017262440480
+    second: Door-Sheet_28
+  - first:
+      213: 9097136706465363244
+    second: Door-Sheet_29
+  - first:
+      213: -390918245439999925
+    second: Door-Sheet_30
+  - first:
+      213: -8710622356892256905
+    second: Door-Sheet_31
+  - first:
+      213: 916438501857753
+    second: Door-Sheet_32
+  - first:
+      213: -4334677166942677019
+    second: Door-Sheet_33
+  - first:
+      213: 1102864538091021847
+    second: Door-Sheet_34
+  - first:
+      213: 3384819146712635913
+    second: Door-Sheet_35
+  - first:
+      213: 8510592891940992318
+    second: Door-Sheet_36
+  - first:
+      213: -689707725944133821
+    second: Door-Sheet_37
+  - first:
+      213: -2759166012101613154
+    second: Door-Sheet_38
+  - first:
+      213: -5600545988748717407
+    second: Door-Sheet_39
+  - first:
+      213: -4082671629442889873
+    second: Door-Sheet_40
+  - first:
+      213: -5163807450839753781
+    second: Door-Sheet_41
+  - first:
+      213: 2084965623219268427
+    second: Door-Sheet_42
+  - first:
+      213: 5827519215004273455
+    second: Door-Sheet_43
+  - first:
+      213: -6490118600894055192
+    second: Door-Sheet_44
+  - first:
+      213: -378873007390072122
+    second: Door-Sheet_45
+  - first:
+      213: -5027126315194707940
+    second: Door-Sheet_46
+  - first:
+      213: -248763530738531543
+    second: Door-Sheet_47
+  - first:
+      213: 390888272265237855
+    second: Door-Sheet_48
+  - first:
+      213: -112556341576870411
+    second: Door-Sheet_49
+  - first:
+      213: 2882772895357032436
+    second: Door-Sheet_50
+  - first:
+      213: 915563829806195748
+    second: Door-Sheet_51
+  - first:
+      213: 570226250437382241
+    second: Door-Sheet_52
+  - first:
+      213: -8624256059480946380
+    second: Door-Sheet_53
+  - first:
+      213: 828021719568549093
+    second: Door-Sheet_54
+  - first:
+      213: -23370500155030539
+    second: Door-Sheet_55
+  - first:
+      213: -7061924335131879985
+    second: Door-Sheet_56
+  - first:
+      213: -6622047429282600558
+    second: Door-Sheet_57
+  - first:
+      213: -1845971460603499321
+    second: Door-Sheet_58
+  - first:
+      213: -4122340312450706917
+    second: Door-Sheet_59
+  - first:
+      213: 2043668399762355227
+    second: Door-Sheet_60
+  - first:
+      213: 2071960059272700684
+    second: Door-Sheet_61
+  - first:
+      213: -2634573138353055041
+    second: Door-Sheet_62
+  - first:
+      213: 2204542585116359464
+    second: Door-Sheet_63
+  - first:
+      213: -1844132217505314128
+    second: Door-Sheet_64
+  - first:
+      213: -4870934968674923851
+    second: Door-Sheet_65
+  - first:
+      213: -8400775732678741338
+    second: Door-Sheet_66
+  - first:
+      213: -3986249450341868831
+    second: Door-Sheet_67
+  - first:
+      213: -3787830715031550859
+    second: Door-Sheet_68
+  - first:
+      213: 7738232339295378169
+    second: Door-Sheet_69
+  - first:
+      213: -8507499891521264211
+    second: Door-Sheet_70
+  - first:
+      213: -3091241759144078662
+    second: Door-Sheet_71
+  - first:
+      213: -5954948758431884839
+    second: Door-Sheet_72
+  - first:
+      213: 4176380132475410382
+    second: Door-Sheet_73
+  - first:
+      213: -4377405950053976763
+    second: Door-Sheet_74
+  - first:
+      213: -4533211487412017739
+    second: Door-Sheet_75
+  - first:
+      213: -322209211449943714
+    second: Door-Sheet_76
+  - first:
+      213: 709408899704187966
+    second: Door-Sheet_77
+  - first:
+      213: -640413820641206278
+    second: Door-Sheet_78
+  - first:
+      213: -234172411611023389
+    second: Door-Sheet_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Door-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaa4dcf4af9f7620800000000000000
+      internalID: 2774111426448763615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7704b09c048f6c0800000000000000
+      internalID: -4109463427754199131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f362b43ad3bdaf7d0800000000000000
+      internalID: -2883751553598282177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e9e182ec5d1e3e0800000000000000
+      internalID: -2026103275926937954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172a2ef65534da050800000000000000
+      internalID: 5813376728233583217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23af00e1232f35a0800000000000000
+      internalID: -6539469505518656722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a638ab9eb0baac60800000000000000
+      internalID: 7830265234838795941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efeeb5a2c22bc93a0800000000000000
+      internalID: -6657250246401462530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ff2ec31d29e3ed0800000000000000
+      internalID: -2432345321366159573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82ea84c1852aec60800000000000000
+      internalID: 7848126539924955788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe16ad30fe579560800000000000000
+      internalID: 7320424105233489653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cc39471a81dc6b0800000000000000
+      internalID: -5274532506856338390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c422a5f919c0aac0800000000000000
+      internalID: -3845852968441994048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3588
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15dd4c446f9d72a0800000000000000
+      internalID: -6738054214350678758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75213db7d86bf740800000000000000
+      internalID: 5186854671648630142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 0
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf84e9a1efb957d0800000000000000
+      internalID: -2929099106688921677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 89d5206fdc76ad6439275d3ad8718836
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":16.0,"y":1.0},"gridSpriteSize":{"x":276.0,"y":309.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Door-Sheet_0: 2774111426448763615
+      Door-Sheet_1: -4109463427754199131
+      Door-Sheet_10: 7320424105233489653
+      Door-Sheet_11: -5274532506856338390
+      Door-Sheet_12: -3845852968441994048
+      Door-Sheet_13: -6738054214350678758
+      Door-Sheet_14: 5186854671648630142
+      Door-Sheet_15: -2929099106688921677
+      Door-Sheet_2: -2883751553598282177
+      Door-Sheet_3: -2026103275926937954
+      Door-Sheet_4: 5813376728233583217
+      Door-Sheet_5: -6539469505518656722
+      Door-Sheet_6: 7830265234838795941
+      Door-Sheet_7: -6657250246401462530
+      Door-Sheet_8: -2432345321366159573
+      Door-Sheet_9: 7848126539924955788
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

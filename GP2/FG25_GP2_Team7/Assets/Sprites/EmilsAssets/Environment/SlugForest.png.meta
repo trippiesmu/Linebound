@@ -1,0 +1,675 @@
+fileFormatVersion: 2
+guid: 0cdf58ec92e6b734fa61b7575ff52d3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1379754245840663190
+    second: SlugForest_0
+  - first:
+      213: 3346005794798939029
+    second: SlugForest_1
+  - first:
+      213: 856572232854204225
+    second: SlugForest_2
+  - first:
+      213: 1372214549839838098
+    second: SlugForest_3
+  - first:
+      213: -1157311760149345029
+    second: SlugForest_4
+  - first:
+      213: -4027313488155470667
+    second: SlugForest_5
+  - first:
+      213: 6109549419278540723
+    second: SlugForest_6
+  - first:
+      213: -1836764699196631807
+    second: SlugForest_7
+  - first:
+      213: 3755756116818481634
+    second: SlugForest_8
+  - first:
+      213: -3520613464088498677
+    second: SlugForest_9
+  - first:
+      213: -5700866285336625696
+    second: SlugForest_10
+  - first:
+      213: 5294502935862179917
+    second: SlugForest_11
+  - first:
+      213: -4784535956783653745
+    second: SlugForest_12
+  - first:
+      213: -1828189683853627884
+    second: SlugForest_13
+  - first:
+      213: -914261927191668624
+    second: SlugForest_14
+  - first:
+      213: -4111954560495334796
+    second: SlugForest_15
+  - first:
+      213: -2234753791449809282
+    second: SlugForest_16
+  - first:
+      213: -3176868456708371787
+    second: SlugForest_17
+  - first:
+      213: 439283326557310620
+    second: SlugForest_18
+  - first:
+      213: -1421824639476284509
+    second: SlugForest_19
+  - first:
+      213: 2469827706696799994
+    second: SlugForest_20
+  - first:
+      213: 6918340517342542101
+    second: SlugForest_21
+  - first:
+      213: 902821923529977541
+    second: SlugForest_22
+  - first:
+      213: 2056729513835421947
+    second: SlugForest_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SlugForest_2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 700
+        width: 1176
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fecbf48e723eb00800000000000000
+      internalID: 856572232854204225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 187
+        width: 236
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b73dedcd51b0310800000000000000
+      internalID: 1372214549839838098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_4
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 197
+        width: 146
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc8ae9f51760ffe0800000000000000
+      internalID: -1157311760149345029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_6
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 194
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf9ac9b3da79c450800000000000000
+      internalID: 6109549419278540723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_7
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 189
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1055868dc308286e0800000000000000
+      internalID: -1836764699196631807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_8
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 189
+        width: 77
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e157f51a402f1430800000000000000
+      internalID: 3755756116818481634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_9
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 190
+        width: 36
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e2c8915b4442fc0800000000000000
+      internalID: -3520613464088498677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_10
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 188
+        width: 62
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed7286615472e0b0800000000000000
+      internalID: -5700866285336625696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_11
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 189
+        width: 15
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48f3526e5ad97940800000000000000
+      internalID: 5294502935862179917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_12
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 190
+        width: 17
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c93d895e9e99db0800000000000000
+      internalID: -4784535956783653745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_13
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 189
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41eeedf2b27f0a6e0800000000000000
+      internalID: -1828189683853627884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_14
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 190
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07893160f93ef43f0800000000000000
+      internalID: -914261927191668624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_15
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 192
+        width: 13
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ac0210d176fe6c0800000000000000
+      internalID: -4111954560495334796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_16
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 188
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e3d24544f8cf0e0800000000000000
+      internalID: -2234753791449809282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_17
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 188
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba01cb68fe79e3d0800000000000000
+      internalID: -3176868456708371787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_18
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 188
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e433babd5a81600800000000000000
+      internalID: 439283326557310620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_19
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 191
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a34e17060aa44ce0800000000000000
+      internalID: -1421824639476284509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_20
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 191
+        width: 22
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6941aa637964220800000000000000
+      internalID: 2469827706696799994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_21
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 190
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519f46bab02e20060800000000000000
+      internalID: 6918340517342542101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_22
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 188
+        width: 98
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce607f81c7778c00800000000000000
+      internalID: 902821923529977541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlugForest_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 190
+        width: 297
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0e8378898fa8c10800000000000000
+      internalID: 2056729513835421947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d01092bd3f48105438f9658ac5842a13
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SlugForest_0: 1379754245840663190
+      SlugForest_1: 3346005794798939029
+      SlugForest_10: -5700866285336625696
+      SlugForest_11: 5294502935862179917
+      SlugForest_12: -4784535956783653745
+      SlugForest_13: -1828189683853627884
+      SlugForest_14: -914261927191668624
+      SlugForest_15: -4111954560495334796
+      SlugForest_16: -2234753791449809282
+      SlugForest_17: -3176868456708371787
+      SlugForest_18: 439283326557310620
+      SlugForest_19: -1421824639476284509
+      SlugForest_2: 856572232854204225
+      SlugForest_20: 2469827706696799994
+      SlugForest_21: 6918340517342542101
+      SlugForest_22: 902821923529977541
+      SlugForest_23: 2056729513835421947
+      SlugForest_3: 1372214549839838098
+      SlugForest_4: -1157311760149345029
+      SlugForest_5: -4027313488155470667
+      SlugForest_6: 6109549419278540723
+      SlugForest_7: -1836764699196631807
+      SlugForest_8: 3755756116818481634
+      SlugForest_9: -3520613464088498677
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

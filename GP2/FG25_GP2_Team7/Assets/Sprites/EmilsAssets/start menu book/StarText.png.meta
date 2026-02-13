@@ -1,0 +1,446 @@
+fileFormatVersion: 2
+guid: 488a59adca3c3c0458f616e44b96031a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5470857045675321244
+    second: StarText_0
+  - first:
+      213: 1780063783151262944
+    second: StarText_1
+  - first:
+      213: -2331737724601626527
+    second: StarText_2
+  - first:
+      213: -4427768245101707444
+    second: StarText_3
+  - first:
+      213: -8973627010961068869
+    second: StarText_4
+  - first:
+      213: -535222215111869119
+    second: StarText_5
+  - first:
+      213: -3158286726834510737
+    second: StarText_6
+  - first:
+      213: 3108086601100297755
+    second: StarText_7
+  - first:
+      213: 8274466889100031007
+    second: StarText_8
+  - first:
+      213: 3448877423663264378
+    second: StarText_9
+  - first:
+      213: 6467011015105353162
+    second: StarText_10
+  - first:
+      213: -7577403774100401412
+    second: StarText_11
+  - first:
+      213: -8652443447794734575
+    second: StarText_12
+  - first:
+      213: -5300736237586714555
+    second: StarText_13
+  - first:
+      213: -6570173869686966428
+    second: StarText_14
+  - first:
+      213: -8216365595847874303
+    second: StarText_15
+  - first:
+      213: 6423723947245490456
+    second: StarText_16
+  - first:
+      213: -6072755510214309201
+    second: StarText_17
+  - first:
+      213: 2777307462702263906
+    second: StarText_18
+  - first:
+      213: -9053472993048592675
+    second: StarText_19
+  - first:
+      213: -4116703085646953978
+    second: StarText_20
+  - first:
+      213: 7167525253519920733
+    second: StarText_21
+  - first:
+      213: -3472870736129693977
+    second: StarText_22
+  - first:
+      213: 6249248770368530802
+    second: StarText_23
+  - first:
+      213: 4752286821632142674
+    second: StarText_24
+  - first:
+      213: 5294676319311563163
+    second: StarText_25
+  - first:
+      213: 3157115754175856274
+    second: StarText_26
+  - first:
+      213: 5533286342357376071
+    second: StarText_27
+  - first:
+      213: -8625267275011892289
+    second: StarText_28
+  - first:
+      213: -4637590216852127999
+    second: StarText_29
+  - first:
+      213: -3708958210467920770
+    second: StarText_30
+  - first:
+      213: -6290913075545721948
+    second: StarText_31
+  - first:
+      213: 4521331392804622591
+    second: StarText_32
+  - first:
+      213: -8241756288537915917
+    second: StarText_33
+  - first:
+      213: 4269089367282680818
+    second: StarText_34
+  - first:
+      213: -9051483105101599191
+    second: StarText_35
+  - first:
+      213: 2479673945958511031
+    second: StarText_36
+  - first:
+      213: -5239537912419074738
+    second: StarText_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StarText_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 131
+        width: 170
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecd440649e04b810800000000000000
+      internalID: 1780063783151262944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarText_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 121
+        width: 195
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f35fa8d386d82c0800000000000000
+      internalID: -4427768245101707444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarText_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 156
+        width: 325
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dfb582b328298f0800000000000000
+      internalID: -535222215111869119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarText_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 121
+        width: 103
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64a23c84f28b24d0800000000000000
+      internalID: -3158286726834510737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarText_12
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 39
+        width: 229
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ae90fd6885ce780800000000000000
+      internalID: -8652443447794734575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarText_28
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 40
+        width: 323
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb5d1cac15ec4880800000000000000
+      internalID: -8625267275011892289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarText_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 24
+        width: 118
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fb3bec448f3afb0800000000000000
+      internalID: -4637590216852127999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarText_33
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 34
+        width: 180
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd0b5082566f9d80800000000000000
+      internalID: -8241756288537915917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d501be67027c50b48b2cdd0f1bb4823c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StarText_0: 5470857045675321244
+      StarText_1: 1780063783151262944
+      StarText_10: 6467011015105353162
+      StarText_11: -7577403774100401412
+      StarText_12: -8652443447794734575
+      StarText_13: -5300736237586714555
+      StarText_14: -6570173869686966428
+      StarText_15: -8216365595847874303
+      StarText_16: 6423723947245490456
+      StarText_17: -6072755510214309201
+      StarText_18: 2777307462702263906
+      StarText_19: -9053472993048592675
+      StarText_2: -2331737724601626527
+      StarText_20: -4116703085646953978
+      StarText_21: 7167525253519920733
+      StarText_22: -3472870736129693977
+      StarText_23: 6249248770368530802
+      StarText_24: 4752286821632142674
+      StarText_25: 5294676319311563163
+      StarText_26: 3157115754175856274
+      StarText_27: 5533286342357376071
+      StarText_28: -8625267275011892289
+      StarText_29: -4637590216852127999
+      StarText_3: -4427768245101707444
+      StarText_30: -3708958210467920770
+      StarText_31: -6290913075545721948
+      StarText_32: 4521331392804622591
+      StarText_33: -8241756288537915917
+      StarText_34: 4269089367282680818
+      StarText_35: -9051483105101599191
+      StarText_36: 2479673945958511031
+      StarText_37: -5239537912419074738
+      StarText_38: -89663018
+      StarText_4: -8973627010961068869
+      StarText_5: -535222215111869119
+      StarText_6: -3158286726834510737
+      StarText_7: 3108086601100297755
+      StarText_8: 8274466889100031007
+      StarText_9: 3448877423663264378
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

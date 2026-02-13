@@ -1,0 +1,669 @@
+fileFormatVersion: 2
+guid: 59b52bef82ba1c54b81f13f9120a6dd1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3367950664364668675
+    second: perfectshapes_0
+  - first:
+      213: -6684612639006140160
+    second: perfectshapes_1
+  - first:
+      213: 274265534637247322
+    second: perfectshapes_2
+  - first:
+      213: 4459695108157252671
+    second: perfectshapes_3
+  - first:
+      213: 8631050355639521429
+    second: perfectshapes_4
+  - first:
+      213: -4265312163981745497
+    second: perfectshapes_5
+  - first:
+      213: -6091403233283372758
+    second: perfectshapes_6
+  - first:
+      213: 8141370440610301956
+    second: perfectshapes_7
+  - first:
+      213: 2643798314413615716
+    second: perfectshapes_8
+  - first:
+      213: 3783378987676745107
+    second: perfectshapes_9
+  - first:
+      213: -6747967679703376622
+    second: perfectshapes_10
+  - first:
+      213: 1073451081612325871
+    second: perfectshapes_11
+  - first:
+      213: -2447671786446900999
+    second: perfectshapes_12
+  - first:
+      213: -7436672443315438623
+    second: perfectshapes_13
+  - first:
+      213: -5859650789465050928
+    second: perfectshapes_14
+  - first:
+      213: 3232710735979416674
+    second: perfectshapes_15
+  - first:
+      213: -7425007266458573807
+    second: perfectshapes_16
+  - first:
+      213: -3375538113266587885
+    second: perfectshapes_17
+  - first:
+      213: -6684590705532043507
+    second: perfectshapes_18
+  - first:
+      213: 7443953079537240193
+    second: perfectshapes_19
+  - first:
+      213: -5790962373203940957
+    second: perfectshapes_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: perfectshapes_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 929
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8c08507b2a241d0800000000000000
+      internalID: -3367950664364668675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 914
+        width: 84
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009d3fea83c7b33a0800000000000000
+      internalID: -6684612639006140160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 888
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b8f26fc036ec300800000000000000
+      internalID: 274265534637247322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 841
+        width: 172
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34a248821504ed30800000000000000
+      internalID: 4459695108157252671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_4
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 821
+        width: 205
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5901766b196a7c770800000000000000
+      internalID: 8631050355639521429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_5
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 751
+        width: 253
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a227b97f219ec4c0800000000000000
+      internalID: -4265312163981745497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_6
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 671
+        width: 344
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a298a70780df67ba0800000000000000
+      internalID: -6091403233283372758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 804
+        width: 163
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4084179e745fbf070800000000000000
+      internalID: 8141370440610301956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 704
+        width: 451
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a666c3f88a0b420800000000000000
+      internalID: 2643798314413615716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_9
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 635
+        width: 485
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d3623e423418430800000000000000
+      internalID: 3783378987676745107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 642
+        width: 447
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d9677c5276a52a0800000000000000
+      internalID: -6747967679703376622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_11
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 640
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3f243421aa5ee00800000000000000
+      internalID: 1073451081612325871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 408
+        width: 639
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f036128a7f180ed0800000000000000
+      internalID: -2447671786446900999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_13
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 503
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb3f3160d1abc890800000000000000
+      internalID: -7436672443315438623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_14
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 457
+        width: 120
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0391a17a65eaea0800000000000000
+      internalID: -5859650789465050928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_15
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 389
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c05a76945ecdc20800000000000000
+      internalID: 3232710735979416674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_16
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 514
+        width: 145
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114ea040b3315f890800000000000000
+      internalID: -7425007266458573807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_17
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 380
+        width: 279
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317e3f868fda721d0800000000000000
+      internalID: -3375538113266587885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 28
+        width: 996
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f72e77b209b33a0800000000000000
+      internalID: -6684590705532043507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_19
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 51
+        width: 429
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -214.5, y: -189.5}
+        - {x: 214.5, y: -189.5}
+        - {x: 175.7688, y: -22.691605}
+        - {x: 17.5, y: 189.5}
+        - {x: -45.5, y: 189.5}
+        - {x: -160.5, y: 46.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1880e76d2eb3e4760800000000000000
+      internalID: 7443953079537240193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectshapes_20
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 30
+        width: 289
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9a685476e52afa0800000000000000
+      internalID: -5790962373203940957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b1880200f89fa844589a413a2f9f033e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      perfectshapes_0: -3367950664364668675
+      perfectshapes_1: -6684612639006140160
+      perfectshapes_10: -6747967679703376622
+      perfectshapes_11: 1073451081612325871
+      perfectshapes_12: -2447671786446900999
+      perfectshapes_13: -7436672443315438623
+      perfectshapes_14: -5859650789465050928
+      perfectshapes_15: 3232710735979416674
+      perfectshapes_16: -7425007266458573807
+      perfectshapes_17: -3375538113266587885
+      perfectshapes_18: -6684590705532043507
+      perfectshapes_19: 7443953079537240193
+      perfectshapes_2: 274265534637247322
+      perfectshapes_20: -5790962373203940957
+      perfectshapes_3: 4459695108157252671
+      perfectshapes_4: 8631050355639521429
+      perfectshapes_5: -4265312163981745497
+      perfectshapes_6: -6091403233283372758
+      perfectshapes_7: 8141370440610301956
+      perfectshapes_8: 2643798314413615716
+      perfectshapes_9: 3783378987676745107
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

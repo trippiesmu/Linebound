@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: f0d55919d82eaae41bdb63c93cf463f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5263296859358116675
+    second: pendrop-Sheet_0
+  - first:
+      213: 4376312820500429132
+    second: pendrop-Sheet_1
+  - first:
+      213: -4105002711761081270
+    second: pendrop-Sheet_2
+  - first:
+      213: -4420672777252461470
+    second: pendrop-Sheet_3
+  - first:
+      213: -2089713767232174656
+    second: pendrop-Sheet_4
+  - first:
+      213: 2528339573188913992
+    second: pendrop-Sheet_5
+  - first:
+      213: -816920030683365334
+    second: pendrop-Sheet_6
+  - first:
+      213: 8308631535115245055
+    second: pendrop-Sheet_7
+  - first:
+      213: 3755933989807121551
+    second: pendrop-Sheet_8
+  - first:
+      213: -9103407379440236354
+    second: pendrop-Sheet_9
+  - first:
+      213: 7968707229491594825
+    second: pendrop-Sheet_10
+  - first:
+      213: -683050755133690001
+    second: pendrop-Sheet_11
+  - first:
+      213: 2878585495628242247
+    second: pendrop-Sheet_12
+  - first:
+      213: -2662643013396052598
+    second: pendrop-Sheet_13
+  - first:
+      213: -1771821990525438423
+    second: pendrop-Sheet_14
+  - first:
+      213: -5076221661159369197
+    second: pendrop-Sheet_15
+  - first:
+      213: 6856581072072026384
+    second: pendrop-Sheet_16
+  - first:
+      213: -2738532283783545605
+    second: pendrop-Sheet_17
+  - first:
+      213: 117552511389879983
+    second: pendrop-Sheet_18
+  - first:
+      213: 1282356956957370833
+    second: pendrop-Sheet_19
+  - first:
+      213: -5411596741038178470
+    second: pendrop-Sheet_20
+  - first:
+      213: -5368687010288487342
+    second: pendrop-Sheet_21
+  - first:
+      213: 3159487779966639944
+    second: pendrop-Sheet_22
+  - first:
+      213: 3531318910937922945
+    second: pendrop-Sheet_23
+  - first:
+      213: -3502839717623451241
+    second: pendrop-Sheet_24
+  - first:
+      213: 8925328399538566768
+    second: pendrop-Sheet_25
+  - first:
+      213: 6041737369898409137
+    second: pendrop-Sheet_26
+  - first:
+      213: -822641055741564296
+    second: pendrop-Sheet_27
+  - first:
+      213: 6284426698715576268
+    second: pendrop-Sheet_28
+  - first:
+      213: 6080846540194315675
+    second: pendrop-Sheet_29
+  - first:
+      213: -1673386656857193562
+    second: pendrop-Sheet_30
+  - first:
+      213: -7605279225510076509
+    second: pendrop-Sheet_31
+  - first:
+      213: -2562474332482913160
+    second: pendrop-Sheet_32
+  - first:
+      213: 1618395016165229384
+    second: pendrop-Sheet_33
+  - first:
+      213: 1825974851128871303
+    second: pendrop-Sheet_34
+  - first:
+      213: 6428395607443383967
+    second: pendrop-Sheet_35
+  - first:
+      213: 6570573839562034598
+    second: pendrop-Sheet_36
+  - first:
+      213: 5562748474575961167
+    second: pendrop-Sheet_37
+  - first:
+      213: 9141634755637063215
+    second: pendrop-Sheet_38
+  - first:
+      213: 1609565576251173765
+    second: pendrop-Sheet_39
+  - first:
+      213: 8482062239069422202
+    second: pendrop-Sheet_40
+  - first:
+      213: 7138870356113348614
+    second: pendrop-Sheet_41
+  - first:
+      213: 1514736445808397989
+    second: pendrop-Sheet_42
+  - first:
+      213: -210868285803413960
+    second: pendrop-Sheet_43
+  - first:
+      213: -5609451041406008898
+    second: pendrop-Sheet_44
+  - first:
+      213: 4097778567829253658
+    second: pendrop-Sheet_45
+  - first:
+      213: -6658402158876967784
+    second: pendrop-Sheet_46
+  - first:
+      213: 7317384909615600217
+    second: pendrop-Sheet_47
+  - first:
+      213: -3236418628067037696
+    second: pendrop-Sheet_48
+  - first:
+      213: 7969950948674891370
+    second: pendrop-Sheet_49
+  - first:
+      213: 296622272407611047
+    second: pendrop-Sheet_50
+  - first:
+      213: 7517310388025098420
+    second: pendrop-Sheet_51
+  - first:
+      213: 7277968569908089944
+    second: pendrop-Sheet_52
+  - first:
+      213: -7812864347235128082
+    second: pendrop-Sheet_53
+  - first:
+      213: -5636972295396369739
+    second: pendrop-Sheet_54
+  - first:
+      213: 4005455660620560322
+    second: pendrop-Sheet_55
+  - first:
+      213: -4549344158468494797
+    second: pendrop-Sheet_56
+  - first:
+      213: 3838285744322624644
+    second: pendrop-Sheet_57
+  - first:
+      213: -6273821854126175260
+    second: pendrop-Sheet_58
+  - first:
+      213: -8478838200465244657
+    second: pendrop-Sheet_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pendrop-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b38718b9cfa0940800000000000000
+      internalID: 5263296859358116675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendrop-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c497ae3d259cbbc30800000000000000
+      internalID: 4376312820500429132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendrop-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c277b68c91807c0800000000000000
+      internalID: -4105002711761081270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendrop-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264a0a3e78d96a2c0800000000000000
+      internalID: -4420672777252461470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b9fc40974413b5b4b9350ce7d95ca571
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":150.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      pendrop-Sheet_0: 5263296859358116675
+      pendrop-Sheet_1: 4376312820500429132
+      pendrop-Sheet_2: -4105002711761081270
+      pendrop-Sheet_3: -4420672777252461470
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
