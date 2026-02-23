@@ -5,16 +5,17 @@ using UnityEngine.UI;
 
 public class LevelSelectStars : MonoBehaviour
 {
-    [SerializeField] string Level;
+    [SerializeField] int Level;
 
     [Header("Star prefabs")]
     [SerializeField] Sprite NotGained;
     [SerializeField] Sprite Gained;
 
+    [SerializeField] List<GameObject> ObjectsToDisable = new List<GameObject>();
+
     List<SpriteRenderer> Stars = new List<SpriteRenderer>();
 
     StarsClass TheseStars = new StarsClass(false, false, false);
-
 
     public class StarsClass
     {
@@ -58,16 +59,27 @@ public class LevelSelectStars : MonoBehaviour
 
     private void OnEnable()
     {
+        int temp = Level - 1;
+        if (temp > 1) {
+            int i = PlayerPrefs.GetInt(temp.ToString(), 0);
+            if (i == 0)
+            {
+                foreach(GameObject gameObject in ObjectsToDisable)
+                {
+                    gameObject.SetActive(false);
+                }
+            }
+        }
+
         Stars.Clear();
         foreach (SpriteRenderer child in transform.GetComponentsInChildren<SpriteRenderer>())
         {
             Stars.Add(child);
             child.sprite = NotGained;
         }
-        if (Level == "") Debug.Log("Level is not set so stars will not work for this prefab");
+        if (Level == 0) Debug.Log("Level is not set so stars will not work for this prefab");
 
         Load();
-
 
         if (Stars.Count > 0)
         {
@@ -80,7 +92,7 @@ public class LevelSelectStars : MonoBehaviour
 
     void Load()
     {
-        int i = PlayerPrefs.GetInt(Level, 0);
+        int i = PlayerPrefs.GetInt(Level.ToString(), 0);
         Debug.Log(Level + " had " + i);
 
         bool star1 = false, star2 = false, star3 = false;

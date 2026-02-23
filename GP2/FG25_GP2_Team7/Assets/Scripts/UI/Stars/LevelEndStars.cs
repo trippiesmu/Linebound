@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class LevelEndStars : MonoBehaviour
 {
     [SerializeField] Draw paint;
-    string Level;
+    int Level;
 
     [Header("Star Goals")]
     [HideInInspector] public bool LevelFinished = false;
@@ -80,7 +80,7 @@ public class LevelEndStars : MonoBehaviour
 
     private void OnEnable()
     {
-        if (Level == null) Level = SceneManager.GetActiveScene().name.ToString();
+        Level = SceneManager.GetActiveScene().buildIndex;
 
         Debug.Log("You used: " + paint.GetTotalCrayonUsed() + " paint");
 
@@ -116,13 +116,13 @@ public class LevelEndStars : MonoBehaviour
 
     void Save()
     {
-        PlayerPrefs.SetInt(Level, TheseStars.Return());
+        PlayerPrefs.SetInt(Level.ToString(), TheseStars.Return());
         PlayerPrefs.Save();
     }
 
     void Load()
     {
-        int i = PlayerPrefs.GetInt(Level, 0);
+        int i = PlayerPrefs.GetInt(Level.ToString(), 0);
 
         bool star1 = false, star2 = false, star3 = false;
         if (i >= 100)
