@@ -1689,8 +1689,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.051662974, y: 0.1836942}
-  m_Radius: 0.76118183
+  m_Offset: {x: 0.063314654, y: 0.1774417}
+  m_Radius: 0.70269924
 --- !u!212 &393144276
 SpriteRenderer:
   serializedVersion: 2
@@ -2338,8 +2338,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.051662974, y: 0.1836942}
-  m_Radius: 0.76118183
+  m_Offset: {x: 0.06325393, y: 0.17721833}
+  m_Radius: 0.70282173
 --- !u!1 &626908351
 GameObject:
   m_ObjectHideFlags: 0
