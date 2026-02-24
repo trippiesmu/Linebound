@@ -6973,6 +6973,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelExit
       objectReference: {fileID: 0}
+    - target: {fileID: 4418504922480152291, guid: 1bc63e7a5c89a7d409747bb34b894653, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418504922480152291, guid: 1bc63e7a5c89a7d409747bb34b894653, type: 3}
+      propertyPath: m_TagString
+      value: NoDraw
+      objectReference: {fileID: 0}
     - target: {fileID: 5556085748658674721, guid: 1bc63e7a5c89a7d409747bb34b894653, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.61

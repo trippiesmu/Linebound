@@ -190,7 +190,7 @@ MonoBehaviour:
   MinimumJumpDuration: 0.05
   MaximumJumpDuration: 0.2
   CoyoteTime: 0.15
-  JumpBufferTimer: 0.15
+  JumpBufferTimer: 0.05
   JumpCooldown: 0.1
   MaxJumpAngle: 55
   MaxSpeed: 10

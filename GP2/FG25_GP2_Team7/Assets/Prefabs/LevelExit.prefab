@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 5766896014104098711}
   - component: {fileID: 289970555695768692}
   - component: {fileID: 9084269088949906201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LevelExit
-  m_TagString: Untagged
+  m_TagString: NoDraw
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,7 +130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelTransition
   StarUI: {fileID: 0}
-  Audio: {fileID: 9084269088949906201}
 --- !u!61 &289970555695768692
 BoxCollider2D:
   m_ObjectHideFlags: 0
