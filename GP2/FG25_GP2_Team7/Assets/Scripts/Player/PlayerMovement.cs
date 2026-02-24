@@ -583,7 +583,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Jumps and adds an internal cooldown to how frequently the player can jump as otherwise the player gets to double jump due to how lenient the capsulecast is.
-        if ((JumpAction.IsPressed() || JumpBuffer != null) && JumpCheck && !JumpCooldownBool)
+        if (JumpBuffer != null && JumpCheck && !JumpCooldownBool)
         {
             if (Jumping == null && ((SlopeDownAngle < MaxJumpAngle || (rb.linearVelocity.y > -0.5 && rb.linearVelocity.y <= 0)) || Coyote != null))
             {
@@ -603,6 +603,11 @@ public class PlayerMovement : MonoBehaviour
             {
                 StopCoroutine(Jumping);
                 Jumping = null;
+            }
+            if (JumpBuffer != null)
+            {
+                StopCoroutine(JumpBuffer);
+                JumpBuffer = null;
             }
         }
 
