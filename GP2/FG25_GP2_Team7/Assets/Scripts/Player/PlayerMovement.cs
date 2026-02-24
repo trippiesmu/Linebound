@@ -604,11 +604,6 @@ public class PlayerMovement : MonoBehaviour
                 StopCoroutine(Jumping);
                 Jumping = null;
             }
-            if (JumpBuffer != null)
-            {
-                StopCoroutine(JumpBuffer);
-                JumpBuffer = null;
-            }
         }
 
         if (Grounded && !OnGreen)
