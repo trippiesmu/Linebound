@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class BouncePad : MonoBehaviour
 {
+    [SerializeField] Draw draw;
     float hypotenuse;
     float xValue;
     float yValue;
@@ -18,6 +19,7 @@ public class BouncePad : MonoBehaviour
     void Start()
     {
         JumpAction = InputSystem.actions.FindAction("Jump");
+        draw = GameObject.FindGameObjectWithTag("Paint").GetComponent<Draw>();
     }
 
     // Update is called once per frame
@@ -50,14 +52,31 @@ public class BouncePad : MonoBehaviour
         {
             player = collision.gameObject;
             
-            if(isLeft(thisPos1, thisPos2, collision.transform.position))
+            if (draw.GetMoonJumpBool())
             {
-                player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, yValue) * bounceForce * currentBounceMod, ForceMode2D.Impulse);
+                if (isLeft(thisPos1, thisPos2, collision.transform.position))
+                {
+                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, yValue) * bounceForce * currentBounceMod, ForceMode2D.Impulse);
+                }
+                else
+                {
+                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, yValue) * bounceForce * currentBounceMod * -1, ForceMode2D.Impulse);
+                }
             }
-            else
+            else if (!draw.GetMoonJumpBool())
             {
-                player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, yValue) * bounceForce * currentBounceMod * -1, ForceMode2D.Impulse);
+                if (isLeft(thisPos1, thisPos2, collision.transform.position))
+                {
+                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, 0) * bounceForce * currentBounceMod, ForceMode2D.Impulse);
+                    player.GetComponent<Rigidbody2D>().linearVelocityY = yValue * bounceForce * currentBounceMod;
+                }
+                else
+                {
+                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, 0) * bounceForce * currentBounceMod * -1, ForceMode2D.Impulse);
+                    player.GetComponent<Rigidbody2D>().linearVelocityY = yValue * bounceForce * currentBounceMod * -1;
+                }
             }
+            
         }
     }
 

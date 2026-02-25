@@ -13,6 +13,7 @@ public class LevelTransition : MonoBehaviour
         {
             StarUI.LevelFinished = true;
             Time.timeScale = 0;
+            this.GetComponent<Collider2D>().enabled = false;
             StarUI.gameObject.SetActive(true);
         }
     }
