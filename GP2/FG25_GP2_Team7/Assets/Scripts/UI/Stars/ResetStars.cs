@@ -1,12 +1,12 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ResetStars : MonoBehaviour
 {
-    [SerializeField] int LevelCount = 0;
 
     public void resetStars()
     {
-        for(int i = 1; i <= LevelCount; i++)
+        for(int i = 1; i <= SceneManager.sceneCountInBuildSettings; i++)
         {
             string s = i.ToString();
             Save(s, 000);

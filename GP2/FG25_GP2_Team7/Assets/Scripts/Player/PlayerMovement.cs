@@ -155,7 +155,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (ResetStars.WasPressedThisFrame())
             {
-                for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
+                for (int i = 0; i <= SceneManager.sceneCountInBuildSettings; i++)
                 {
                     string s = i.ToString();
                     PlayerPrefs.SetInt(s, 000);
