@@ -12,7 +12,9 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
     InputAction MoveAction;
     InputAction JumpAction;
-    InputAction ExtraAnimation;
+    InputAction Emote1;
+    InputAction Emote2;
+    InputAction Emote3;
     InputAction RestartAction;
     InputAction ResetStars;
     SpriteRenderer spriteRenderer;
@@ -114,12 +116,16 @@ public class PlayerMovement : MonoBehaviour
         JumpAction = InputSystem.actions.FindAction("Jump");
         RestartAction = InputSystem.actions.FindAction("Restart");
         ResetStars = InputSystem.actions.FindAction("ResetStars");
-        ExtraAnimation = InputSystem.actions.FindAction("Interact");
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         mask = LayerMask.GetMask("Default");
         animator = GetComponent<Animator>();
         composite2D = GetComponent<CompositeCollider2D>();
+
+        Emote1 = InputSystem.actions.FindAction("Emote_1");
+        Emote2 = InputSystem.actions.FindAction("Emote_2");
+        Emote3 = InputSystem.actions.FindAction("Emote_3");
+
     }
 
     void Update()
@@ -158,9 +164,17 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (ExtraAnimation.WasPressedThisFrame())
+        if (Emote1.WasPressedThisFrame())
         {
-            animator.SetTrigger("Emote");
+            animator.SetTrigger("Emote_1");
+        }
+        if (Emote2.WasPressedThisFrame())
+        {
+            animator.SetTrigger("Emote_2");
+        }
+        if (Emote3.WasPressedThisFrame())
+        {
+            animator.SetTrigger("Emote_3");
         }
 
         if (RestartAction.WasPressedThisFrame())
