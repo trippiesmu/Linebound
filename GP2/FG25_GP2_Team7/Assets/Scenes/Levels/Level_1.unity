@@ -6548,10 +6548,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3709140884954444417, guid: 583708197258c3f46b57c22a32082fc3, type: 3}
-      propertyPath: InconsistentJumpsOnRedSlopes
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6307977118197068312, guid: 583708197258c3f46b57c22a32082fc3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.07

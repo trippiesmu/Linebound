@@ -194,6 +194,8 @@ MonoBehaviour:
   blueMat: {fileID: 2100000, guid: c77fc75473558054695b07c579babb29, type: 2}
   greenMat: {fileID: 2100000, guid: 03938784dec733741a5bec330652a389, type: 2}
   redMat: {fileID: 2100000, guid: 87dcfc6c00481d645a90bbdac0e21241, type: 2}
+  moonJump: 0
+  stackJumpPad: 1
 --- !u!114 &-2025311486200715381
 MonoBehaviour:
   m_ObjectHideFlags: 0

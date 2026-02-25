@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 439200068920168987}
   m_Layer: 0
   m_Name: Right_InvisWall
-  m_TagString: Untagged
+  m_TagString: NoDraw
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -491,7 +491,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.005251527, y: 0.16078132}
+  m_Offset: {x: 0.005251527, y: -0.6293137}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -501,7 +501,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.9548913, y: 1.3215626}
+  m_Size: {x: 0.9548913, y: 2.901753}
   m_EdgeRadius: 0
 --- !u!1 &6918550116507429719
 GameObject:
@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 4782013297362613416}
   m_Layer: 0
   m_Name: Bottom_InvisWall
-  m_TagString: Untagged
+  m_TagString: NoDraw
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -654,7 +654,7 @@ GameObject:
   - component: {fileID: 1150385285712654301}
   m_Layer: 0
   m_Name: Top_InvisWall
-  m_TagString: Untagged
+  m_TagString: NoDraw
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 5284228937654957131}
   m_Layer: 0
   m_Name: Left_InvisWall
-  m_TagString: Untagged
+  m_TagString: NoDraw
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -983,7 +983,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0093458295, y: -0.14111432}
+  m_Offset: {x: 0.0093458295, y: 0.79659176}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -993,5 +993,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.95787394, y: 1.2822287}
+  m_Size: {x: 0.95787394, y: 3.157641}
   m_EdgeRadius: 0
