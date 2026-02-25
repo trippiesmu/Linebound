@@ -8,7 +8,7 @@ public class ResetStars : MonoBehaviour
     {
         for(int i = 1; i <= LevelCount; i++)
         {
-            string s = "Level_" + i;
+            string s = i.ToString();
             Save(s, 000);
         }
     }

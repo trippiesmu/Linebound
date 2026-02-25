@@ -4234,9 +4234,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_3
+  Level: 3
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &230652765
 GameObject:
   m_ObjectHideFlags: 0
@@ -8723,9 +8724,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_2
+  Level: 2
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &465844144
 GameObject:
   m_ObjectHideFlags: 0
@@ -9001,9 +9003,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_11
+  Level: 13
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &482204619
 GameObject:
   m_ObjectHideFlags: 0
@@ -9731,9 +9734,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_4
+  Level: 4
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &514812930
 GameObject:
   m_ObjectHideFlags: 0
@@ -9947,9 +9951,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_6
+  Level: 11
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &541877729
 GameObject:
   m_ObjectHideFlags: 0
@@ -13076,9 +13081,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_1
+  Level: 1
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &701320919
 GameObject:
   m_ObjectHideFlags: 0
@@ -14720,9 +14726,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_13
+  Level: 12
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &788833179
 GameObject:
   m_ObjectHideFlags: 0
@@ -17711,9 +17718,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_5
+  Level: 5
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &929364539
 GameObject:
   m_ObjectHideFlags: 0
@@ -25015,9 +25023,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_12
+  Level: 7
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &1299541197
 GameObject:
   m_ObjectHideFlags: 0
@@ -36586,9 +36595,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_8
+  Level: 9
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &1897894920
 GameObject:
   m_ObjectHideFlags: 0
@@ -39310,9 +39320,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_10
+  Level: 6
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &2045642476
 GameObject:
   m_ObjectHideFlags: 0
@@ -40081,9 +40092,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: Level_9
+  Level: 8
   NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &2112632333
 GameObject:
   m_ObjectHideFlags: 0
@@ -40650,7 +40662,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8525179258149012966, guid: cf2b9e65d57e61d44a89536102bfa3cd, type: 3}
       propertyPath: Level
-      value: Level_7
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

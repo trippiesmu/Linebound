@@ -151,7 +151,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
                 {
-                    string s = "Level_" + i;
+                    string s = i.ToString();
                     PlayerPrefs.SetInt(s, 000);
                 }
                 PlayerPrefs.Save();
