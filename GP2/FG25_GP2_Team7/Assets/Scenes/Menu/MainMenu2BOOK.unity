@@ -827,133 +827,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &52496745
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 52496747}
-  - component: {fileID: 52496746}
-  - component: {fileID: 52496748}
-  m_Layer: 0
-  m_Name: Directional Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &52496746
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52496745}
-  m_Enabled: 1
-  serializedVersion: 12
-  m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize2D: {x: 0.5, y: 0.5}
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ForceVisible: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
-  m_LightUnit: 1
-  m_LuxAtDistance: 1
-  m_EnableSpotReflector: 1
---- !u!4 &52496747
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52496745}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.96408796, y: -0.24235846, z: -0.030096814, w: -0.10436006}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -12.463, y: -179.563, z: -151.826}
---- !u!114 &52496748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52496745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_CustomShadowLayers: 0
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
-  m_RenderingLayersMask:
-    serializedVersion: 0
-    m_Bits: 1
-  m_ShadowRenderingLayersMask:
-    serializedVersion: 0
-    m_Bits: 1
-  m_Version: 4
-  m_LightLayerMask: 1
-  m_ShadowLayerMask: 1
-  m_RenderingLayers: 1
-  m_ShadowRenderingLayers: 1
 --- !u!1 &69152799
 GameObject:
   m_ObjectHideFlags: 0
@@ -11161,10 +11034,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 437596561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.35900003, y: 0.286}
-  m_AnchorMax: {x: 0.47081253, y: 0.36200002}
-  m_AnchoredPosition: {x: 0.1899414, y: 0.007904053}
-  m_SizeDelta: {x: -0.8058014, y: 0.85369873}
+  m_AnchorMin: {x: 0.3604792, y: 0.28500003}
+  m_AnchorMax: {x: 0.46977088, y: 0.36200002}
+  m_AnchoredPosition: {x: -0.3356018, y: -0.27220154}
+  m_SizeDelta: {x: 0.33360004, y: 0.5444}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &579106047
 MonoBehaviour:
@@ -14913,8 +14786,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.3604792, y: 0.388}
   m_AnchorMax: {x: 0.606, y: 0.41000003}
-  m_AnchoredPosition: {x: 0.95007324, y: -1}
-  m_SizeDelta: {x: 2.5851135, y: 2.5690002}
+  m_AnchoredPosition: {x: 2.4924, y: -1}
+  m_SizeDelta: {x: -0.4997, y: 2.569}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &804575068
 MonoBehaviour:
@@ -25452,17 +25325,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319738580}
-  m_LocalRotation: {x: 0.00048048425, y: 0.0013278632, z: -0.038400624, w: 0.99926144}
+  m_LocalRotation: {x: 0.00040960376, y: 0.0005698282, z: -0.030236742, w: 0.99954253}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 437596561}
-  m_LocalEulerAnglesHint: {x: 0.061, y: 0.15, z: -4.401}
-  m_AnchorMin: {x: 0.44900003, y: 0.11511007}
-  m_AnchorMax: {x: 0.549, y: 0.2086292}
-  m_AnchoredPosition: {x: 8.4159, y: 5.799988}
-  m_SizeDelta: {x: -5.1942, y: 8.3227}
+  m_LocalEulerAnglesHint: {x: 0.049, y: 0.064, z: -3.465}
+  m_AnchorMin: {x: 0.4534792, y: 0.11325839}
+  m_AnchorMax: {x: 0.55300003, y: 0.22000001}
+  m_AnchoredPosition: {x: -0.078697205, y: 0.5015869}
+  m_SizeDelta: {x: -3.9232998, y: -8.448999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1319738582
 MonoBehaviour:
@@ -39207,8 +39080,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.3604792, y: 0.531}
   m_AnchorMax: {x: 0.606, y: 0.554}
-  m_AnchoredPosition: {x: -1.0600586, y: 1.5}
-  m_SizeDelta: {x: 2.5851135, y: 1.5690002}
+  m_AnchoredPosition: {x: -1.1763, y: 3.5953}
+  m_SizeDelta: {x: 2.3527, y: 1.9515}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037678999
 MonoBehaviour:
@@ -40676,7 +40549,6 @@ SceneRoots:
   - {fileID: 892280376294927116}
   - {fileID: 161482545}
   - {fileID: 1624834782}
-  - {fileID: 52496747}
   - {fileID: 221879467}
   - {fileID: 1376411432}
   - {fileID: 882614633}
