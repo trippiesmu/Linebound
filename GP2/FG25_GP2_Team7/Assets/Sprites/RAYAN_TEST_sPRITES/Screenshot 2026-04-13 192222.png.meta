@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4e14188c99f7ed44ea8be99e90257b96
+guid: c97bb63f3c01c064dbdefa06960a4f9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6273239623080554206
-    second: Lastpage_0
+      213: 2297061956932169315
+    second: Screenshot 2026-04-13 192222_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lastpage_0
+      name: Screenshot 2026-04-13 192222_0
       rect:
         serializedVersion: 2
-        x: 438
-        y: 145
-        width: 621
-        height: 823
+        x: 0
+        y: 0
+        width: 395
+        height: 436
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 221d063ccc9f0f8a0800000000000000
-      internalID: -6273239623080554206
+      spriteID: 36e6102fdadc0ef10800000000000000
+      internalID: 2297061956932169315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot 2026-04-13 192222_1
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 398
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16092bb59699f3e4a94742536f0df993
+      internalID: -1724488160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot 2026-04-13 192222_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 395
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f94e1bbaa0701408659c0a829fcb6d
+      internalID: -1102576455
       vertices: []
       indices: 
       edges: []
@@ -125,7 +169,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 00396c1ea0961d748b394eca3bd68f28
+    spriteID: 0104975f6cbafca47bc6a0eb6c64787e
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +177,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Lastpage_0: -6273239623080554206
+      Screenshot 2026-04-13 192222_0: 2297061956932169315
+      Screenshot 2026-04-13 192222_1: -1724488160
+      Screenshot 2026-04-13 192222_2: -1102576455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
