@@ -20,10 +20,13 @@ public class Hand : MonoBehaviour
     [SerializeField] float eraserTargetMod = 2f;
     [SerializeField] float adjustHandX = 0.2f;
     [SerializeField] float adjustHandY = 1f;
+    [SerializeField] Vector2 currentResolution = new Vector2(1920,1080);
     //[SerializeField] float adjustMouseX;
     //[SerializeField] float adjustMouseY;
 
     float scaleMod = 1f;
+    float xMod = 1f;
+    float yMod = 1f;
     
     Vector2 handPosition;
     Vector2 startingValues;
@@ -33,6 +36,15 @@ public class Hand : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
+        if(!Application.isEditor)
+        {
+            currentResolution = new Vector2(Screen.currentResolution.width, Screen.currentResolution.height);
+            xMod = currentResolution.x / 1920;
+            yMod = currentResolution.y / 1080;
+            adjustHandX *= xMod;
+            adjustHandY *= yMod;
+        }
+        
         crayon = GameObject.FindGameObjectWithTag("Cursor");
         target = GameObject.FindGameObjectWithTag("Target");
         //mouse = GameObject.FindGameObjectWithTag("Mouse");
@@ -50,6 +62,18 @@ public class Hand : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(!Application.isEditor && currentResolution != new Vector2(Screen.currentResolution.width, Screen.currentResolution.height))
+        {
+            adjustHandX /= xMod;
+            adjustHandY /= yMod;
+            currentResolution = new Vector2(Screen.currentResolution.width, Screen.currentResolution.height);
+            xMod = currentResolution.x / 1920;
+            yMod = currentResolution.y / 1080;
+            adjustHandX *= xMod;
+            adjustHandY *= yMod;
+            startingValues = new Vector2(adjustHandX, adjustHandY);
+            finalValues = new Vector2(adjustHandX - 5f, adjustHandY - 10f);
+        }
         Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
         RaycastHit2D hit = Physics2D.GetRayIntersection(ray, Mathf.Infinity);
         if (Pointer.current.press.IsPressed())
