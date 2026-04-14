@@ -9,6 +9,8 @@ public class BookCloseScript : MonoBehaviour
     public Animator Page;
     public Animator BookMove;
     public Animator Animator;
+    public AudioSource BookCloseSFX;
+    public AudioSource BookMoveSFX;
     void Start()
     {
         StartCoroutine(BookCloseCouroutine());
@@ -20,8 +22,10 @@ public class BookCloseScript : MonoBehaviour
         yield return new WaitForSeconds(6f);
         BookCover.SetTrigger("CLOSENOW");
         yield return new WaitForSeconds(0.05f);
+        BookCloseSFX.Play();
         Page.SetTrigger("CLOSENOW");
         print("Couroutine Ended");
+        BookMoveSFX.Play();
         yield return new WaitForSeconds(0.80f);
         BookMove.SetTrigger("MOVENOW");
         yield return new WaitForSeconds(4f);
