@@ -4037,7 +4037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelEndStars
   paint: {fileID: 6266494127604541887, guid: 4660c68f0409b9f478010c3134833044, type: 3}
   LevelFinished: 0
-  paintGoal: 1000
+  MaxTimeGoal: 0
   Collectible: {fileID: 6588207234780327249, guid: 0eb5aee953e480340b9540d9459de729, type: 3}
   NotGained: {fileID: 2800000, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
   Gained: {fileID: 2800000, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}

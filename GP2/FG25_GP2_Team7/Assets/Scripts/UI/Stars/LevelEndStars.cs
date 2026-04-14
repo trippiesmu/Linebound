@@ -11,7 +11,8 @@ public class LevelEndStars : MonoBehaviour
 
     [Header("Star Goals")]
     [HideInInspector] public bool LevelFinished = false;
-    [SerializeField] float paintGoal;
+    //[SerializeField] float paintGoal;
+    [SerializeField] float MaxTimeGoal;
     [SerializeField] GameObject Collectible;
 
     [Header("Star prefabs")]
@@ -73,30 +74,27 @@ public class LevelEndStars : MonoBehaviour
             child.texture = NotGained;
         }
 
+        Level = SceneManager.GetActiveScene().buildIndex;
+
+        Load();
+
         this.gameObject.SetActive(false);
+
     }
 
 
 
     private void OnEnable()
     {
-        Level = SceneManager.GetActiveScene().buildIndex;
-
-        Debug.Log("You used: " + paint.GetTotalCrayonUsed() + " paint");
-
-        Load();
-
-
         int CurrentStars = TheseStars.StarCount();
         int GainedStars = 0;
-
 
         if (LevelFinished)
         {
             GainedStars++;
             TheseStars.Update(true, false, false);
             Stars[0].texture = Gained;
-            if (paint.GetTotalCrayonUsed() <= paintGoal)
+            if (Time.timeSinceLevelLoad <= MaxTimeGoal)
             {
                 GainedStars++;
                 TheseStars.Update(false, true, false);
