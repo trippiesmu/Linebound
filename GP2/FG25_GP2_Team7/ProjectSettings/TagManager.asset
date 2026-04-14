@@ -18,6 +18,8 @@ TagManager:
   - Target
   - Mouse
   - UICrayon
+  - MusicBox
+  - MainMenuMusic
   layers:
   - Default
   - TransparentFX

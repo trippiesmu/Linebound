@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CrossFade : MonoBehaviour
 {
     private Animator Animator;
+    private GameObject MainMenuMusicAudio;
 
     void Start()
     {
@@ -27,6 +28,9 @@ public class CrossFade : MonoBehaviour
                     LevelIndex = 1;
             }
         }
+        
+        MainMenuMusicAudio = GameObject.FindWithTag("MainMenuMusic");
+        Destroy(MainMenuMusicAudio);
         StartCoroutine(Joesph(LevelIndex));
     }
 

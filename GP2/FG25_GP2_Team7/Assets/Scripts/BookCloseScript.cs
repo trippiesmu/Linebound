@@ -25,9 +25,9 @@ public class BookCloseScript : MonoBehaviour
         BookCloseSFX.Play();
         Page.SetTrigger("CLOSENOW");
         print("Couroutine Ended");
-        BookMoveSFX.Play();
         yield return new WaitForSeconds(0.80f);
         BookMove.SetTrigger("MOVENOW");
+        BookMoveSFX.Play();
         yield return new WaitForSeconds(4f);
         Time.timeScale = 1.0f;
         Animator.SetTrigger("Start");
