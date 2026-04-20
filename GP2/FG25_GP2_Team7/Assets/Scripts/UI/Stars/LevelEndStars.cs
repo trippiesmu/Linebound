@@ -12,7 +12,7 @@ public class LevelEndStars : MonoBehaviour
     [Header("Star Goals")]
     [HideInInspector] public bool LevelFinished = false;
     //[SerializeField] float paintGoal;
-    [SerializeField] float MaxTimeGoal;
+    [SerializeField] public float MaxTimeGoal;
     [SerializeField] GameObject Collectible;
 
     [Header("Star prefabs")]

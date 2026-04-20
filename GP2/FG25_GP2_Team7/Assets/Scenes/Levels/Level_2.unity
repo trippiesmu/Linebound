@@ -5178,6 +5178,10 @@ PrefabInstance:
       propertyPath: Collectible
       value: 
       objectReference: {fileID: 1376695099}
+    - target: {fileID: 5436702847793054940, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+      propertyPath: MaxTimeGoal
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 5476592758764879368, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 3

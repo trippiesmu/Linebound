@@ -4778,6 +4778,10 @@ PrefabInstance:
       propertyPath: Collectible
       value: 
       objectReference: {fileID: 2112782130}
+    - target: {fileID: 5436702847793054940, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+      propertyPath: MaxTimeGoal
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5476592758764879368, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 3
@@ -4909,6 +4913,14 @@ PrefabInstance:
     - target: {fileID: 7924589568547752885, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: m_Name
       value: LevelUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064850093022846936, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064850093022846936, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8400690601004467013, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -7045,6 +7057,10 @@ PrefabInstance:
     - target: {fileID: 4418504922480152291, guid: 1bc63e7a5c89a7d409747bb34b894653, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418504922480152291, guid: 1bc63e7a5c89a7d409747bb34b894653, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4418504922480152291, guid: 1bc63e7a5c89a7d409747bb34b894653, type: 3}
       propertyPath: m_TagString
