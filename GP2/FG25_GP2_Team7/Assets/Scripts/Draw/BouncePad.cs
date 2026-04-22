@@ -1,48 +1,71 @@
-using System.Drawing;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class BouncePad : MonoBehaviour
 {
     [SerializeField] Draw draw;
+
+    // Exposed so you can view and manually assign in the Inspector
+    [SerializeField] Vector2 pos1;
+    [SerializeField] Vector2 pos2;
+
     float hypotenuse;
     float xValue;
     float yValue;
-    Vector2 thisPos1;
-    Vector2 thisPos2;
+
     [SerializeField] float bounceForce = 10f;
     [SerializeField] float bounceMod = 1.5f;
     float currentBounceMod = 1f;
     InputAction JumpAction;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         JumpAction = InputSystem.actions.FindAction("Jump");
         draw = GameObject.FindGameObjectWithTag("Paint").GetComponent<Draw>();
+        ComputeAngle(); // ensure values are computed at start if set in inspector
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(JumpAction.IsPressed())
+        if (JumpAction.IsPressed())
         {
             currentBounceMod = bounceMod;
         }
-        else if(JumpAction.WasReleasedThisFrame())
+        else if (JumpAction.WasReleasedThisFrame())
         {
             currentBounceMod = 1;
         }
     }
 
-    public void SetAngle(Vector2 pos1, Vector2 pos2)
+    // Keep API for runtime callers; also updates the serialized values so they remain visible in the Inspector
+    public void SetAngle(Vector2 a, Vector2 b)
     {
-        thisPos1 = pos1;
-        thisPos2 = pos2;
-        hypotenuse = Mathf.Sqrt(Mathf.Pow(pos2.x-pos1.x, 2) + Mathf.Pow(pos2.y-pos1.y, 2));
+        pos1 = a;
+        pos2 = b;
+        ComputeAngle();
+    }
+
+    // Recompute whenever you change pos1/pos2 in the Inspector
+    void OnValidate()
+    {
+        ComputeAngle();
+    }
+
+    void ComputeAngle()
+    {
+        hypotenuse = Mathf.Sqrt(Mathf.Pow(pos2.x - pos1.x, 2) + Mathf.Pow(pos2.y - pos1.y, 2));
+        if (hypotenuse == 0f)
+        {
+            xValue = 0f;
+            yValue = 0f;
+            return;
+        }
+
         yValue = (pos2.x - pos1.x) / hypotenuse;
         xValue = -(pos2.y - pos1.y) / hypotenuse;
-        Debug.Log(xValue + " " + yValue);
+#if UNITY_EDITOR
+        Debug.Log($"BouncePad angle vector: ({xValue}, {yValue})");
+#endif
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
@@ -51,10 +74,10 @@ public class BouncePad : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             player = collision.gameObject;
-            
+
             if (draw.GetMoonJumpBool())
             {
-                if (isLeft(thisPos1, thisPos2, collision.transform.position))
+                if (isLeft(pos1, pos2, collision.transform.position))
                 {
                     player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, yValue) * bounceForce * currentBounceMod, ForceMode2D.Impulse);
                 }
@@ -65,7 +88,7 @@ public class BouncePad : MonoBehaviour
             }
             else if (!draw.GetMoonJumpBool())
             {
-                if (isLeft(thisPos1, thisPos2, collision.transform.position))
+                if (isLeft(pos1, pos2, collision.transform.position))
                 {
                     player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, 0) * bounceForce * currentBounceMod, ForceMode2D.Impulse);
                     player.GetComponent<Rigidbody2D>().linearVelocityY = yValue * bounceForce * currentBounceMod;
@@ -76,7 +99,7 @@ public class BouncePad : MonoBehaviour
                     player.GetComponent<Rigidbody2D>().linearVelocityY = yValue * bounceForce * currentBounceMod * -1;
                 }
             }
-            
+
         }
     }
 
