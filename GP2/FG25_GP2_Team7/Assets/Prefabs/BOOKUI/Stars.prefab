@@ -229,9 +229,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95b3ca8ed9b843a6ef09fb949f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
-  Level: 
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  Level: 10
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  ObjectsToDisable: []
 --- !u!1 &9123493148007830109
 GameObject:
   m_ObjectHideFlags: 0

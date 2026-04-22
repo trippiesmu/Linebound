@@ -4035,8 +4035,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 3
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &230652765
 GameObject:
@@ -8525,8 +8525,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 2
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &465844144
 GameObject:
@@ -8804,8 +8804,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 13
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &482204619
 GameObject:
@@ -9535,8 +9535,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 4
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &514812930
 GameObject:
@@ -9752,8 +9752,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 11
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &541877729
 GameObject:
@@ -12882,8 +12882,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 1
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &701320919
 GameObject:
@@ -14527,8 +14527,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 12
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &788833179
 GameObject:
@@ -17661,8 +17661,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 5
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &929364539
 GameObject:
@@ -24966,8 +24966,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 7
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &1299541197
 GameObject:
@@ -36538,8 +36538,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 9
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &1897894920
 GameObject:
@@ -39263,8 +39263,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 6
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &2045642476
 GameObject:
@@ -40035,8 +40035,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectStars
   Level: 8
-  NotGained: {fileID: 5643475517420057468, guid: 934e46f9305e1e54295e344d0c73ded5, type: 3}
-  Gained: {fileID: -2944948863613014043, guid: 137d80177bc863041988fbc1027f8d4a, type: 3}
+  NotGained: {fileID: -8380645149139480396, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
+  Gained: {fileID: -2853998761582297870, guid: 8712fda3cfc09054f81b4f520b893df5, type: 3}
   ObjectsToDisable: []
 --- !u!1 &2112632333
 GameObject:
@@ -40601,10 +40601,6 @@ PrefabInstance:
     - target: {fileID: 6409104068529127205, guid: cf2b9e65d57e61d44a89536102bfa3cd, type: 3}
       propertyPath: m_Name
       value: Stars
-      objectReference: {fileID: 0}
-    - target: {fileID: 8525179258149012966, guid: cf2b9e65d57e61d44a89536102bfa3cd, type: 3}
-      propertyPath: Level
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

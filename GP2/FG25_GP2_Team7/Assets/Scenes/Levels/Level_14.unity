@@ -6779,6 +6779,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5436702847793054940, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+      propertyPath: MaxTimeGoal
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 5948543417958572891, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: m_IsActive
       value: 0
