@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: 3b7b65abbcaba9841ae47f9d357548af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4591933891120804320
+    second: textonpages_0
+  - first:
+      213: -6466376931382043931
+    second: textonpages_1
+  - first:
+      213: 5069828804890337674
+    second: textonpages_2
+  - first:
+      213: 3141738736382285893
+    second: textonpages_3
+  - first:
+      213: 8876846427194465460
+    second: textonpages_4
+  - first:
+      213: -1987176648815222325
+    second: textonpages_5
+  - first:
+      213: 7023370494111746141
+    second: textonpages_6
+  - first:
+      213: 7840566259386889294
+    second: textonpages_7
+  - first:
+      213: 5241078111699966140
+    second: textonpages_8
+  - first:
+      213: 6140337577435285692
+    second: textonpages_9
+  - first:
+      213: -6327534869851560954
+    second: textonpages_10
+  - first:
+      213: 2150984240419715435
+    second: textonpages_11
+  - first:
+      213: 3017162584165951287
+    second: textonpages_12
+  - first:
+      213: -2156484241373609407
+    second: textonpages_13
+  - first:
+      213: -3597296097443971789
+    second: textonpages_14
+  - first:
+      213: -5223256513951868111
+    second: textonpages_15
+  - first:
+      213: -3339846602481912327
+    second: textonpages_16
+  - first:
+      213: -2991941330397288098
+    second: textonpages_17
+  - first:
+      213: 8874710293608280799
+    second: textonpages_18
+  - first:
+      213: -3445323674327234731
+    second: textonpages_19
+  - first:
+      213: 5231456730274857612
+    second: textonpages_20
+  - first:
+      213: 944874015672980824
+    second: textonpages_21
+  - first:
+      213: -1424525006425549757
+    second: textonpages_22
+  - first:
+      213: -9193462306059792735
+    second: textonpages_23
+  - first:
+      213: -2922216009807274361
+    second: textonpages_24
+  - first:
+      213: -6375704817218955677
+    second: textonpages_25
+  - first:
+      213: -8660075868643248871
+    second: textonpages_26
+  - first:
+      213: -2144099235245600835
+    second: textonpages_27
+  - first:
+      213: 5217178232355248843
+    second: textonpages_28
+  - first:
+      213: -1277866731105528602
+    second: textonpages_29
+  - first:
+      213: 8097991373085620657
+    second: textonpages_30
+  - first:
+      213: -5457886575527290861
+    second: textonpages_31
+  - first:
+      213: 3031494243624650006
+    second: textonpages_32
+  - first:
+      213: 8734508849498176209
+    second: textonpages_33
+  - first:
+      213: -5783164942706858796
+    second: textonpages_34
+  - first:
+      213: 1354960287009350978
+    second: textonpages_35
+  - first:
+      213: 8271355296114835636
+    second: textonpages_36
+  - first:
+      213: 6228514845429735235
+    second: textonpages_37
+  - first:
+      213: -4911701271666934277
+    second: textonpages_38
+  - first:
+      213: -4761458160573604312
+    second: textonpages_39
+  - first:
+      213: 1130512313524445636
+    second: textonpages_40
+  - first:
+      213: 5594131468221874000
+    second: textonpages_41
+  - first:
+      213: 3549180798613198839
+    second: textonpages_42
+  - first:
+      213: -2109293196283197591
+    second: textonpages_43
+  - first:
+      213: 449578491070442651
+    second: textonpages_44
+  - first:
+      213: -8520803744126583166
+    second: textonpages_45
+  - first:
+      213: -6502584101488934402
+    second: textonpages_46
+  - first:
+      213: -2629115820142841503
+    second: textonpages_47
+  - first:
+      213: 8840048388162451815
+    second: textonpages_48
+  - first:
+      213: 3814990670048233419
+    second: textonpages_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: textonpages_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1355c7b83d9bf30800000000000000
+      internalID: 4591933891120804320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ac6dfb74e6d97034bbca877fd215c889
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1920.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      textonpages_0: 4591933891120804320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
