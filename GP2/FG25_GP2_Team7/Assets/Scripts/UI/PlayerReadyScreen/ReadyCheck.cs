@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class ReadyCheck : MonoBehaviour
 {
@@ -9,9 +10,13 @@ public class ReadyCheck : MonoBehaviour
     [SerializeField] GameObject Player1Ready;
     [SerializeField] GameObject Player2NotReady;
     [SerializeField] GameObject Player2Ready;
+    //public CrossFade cs; // for crossfade
 
     bool Player1 = false;
     bool Player2 = false;
+    private GameObject MainMenuMusicAudio;
+    public Animator Animator;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -39,7 +44,16 @@ public class ReadyCheck : MonoBehaviour
         }
         if (Player1 && Player2)
         {
-            SceneManager.LoadScene(1, LoadSceneMode.Single);
+            StartCoroutine(Crossfade());
         }
+    }
+    private IEnumerator Crossfade()
+    {
+        Time.timeScale = 1.0f;
+        Animator.SetTrigger("Start");
+        yield return new WaitForSeconds(1f);
+        MainMenuMusicAudio = GameObject.FindWithTag("MainMenuMusic");
+        Destroy(MainMenuMusicAudio);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
 }

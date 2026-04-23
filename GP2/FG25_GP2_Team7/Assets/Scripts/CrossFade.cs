@@ -1,5 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,6 +6,7 @@ public class CrossFade : MonoBehaviour
 {
     private Animator Animator;
     private GameObject MainMenuMusicAudio;
+    public int PublicLevelIndex;
 
     void Start()
     {
@@ -29,8 +29,7 @@ public class CrossFade : MonoBehaviour
             }
         }
         
-        MainMenuMusicAudio = GameObject.FindWithTag("MainMenuMusic");
-        Destroy(MainMenuMusicAudio);
+        
         StartCoroutine(Joesph(LevelIndex));
     }
 
@@ -39,6 +38,16 @@ public class CrossFade : MonoBehaviour
         Time.timeScale = 1.0f;
         Animator.SetTrigger("Start");
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadSceneAsync(LevelIndex);
+        MainMenuMusicAudio = GameObject.FindWithTag("MainMenuMusic");
+        if (LevelIndex == 1)
+        {
+            SceneManager.LoadSceneAsync(15);
+        }
+        else
+        {
+            Destroy(MainMenuMusicAudio);
+            SceneManager.LoadSceneAsync(LevelIndex);
+        }
+            
     }
 }

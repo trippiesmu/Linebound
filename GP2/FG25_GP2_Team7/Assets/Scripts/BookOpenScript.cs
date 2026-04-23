@@ -1,7 +1,9 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class BookOpenScript : MonoBehaviour
 {
@@ -31,6 +33,7 @@ public class BookOpenScript : MonoBehaviour
     private float timer = 0;
     int temp = 0;
     public GameObject Sliders;
+
 
 
     public void Start() // turns the cursor back to normal

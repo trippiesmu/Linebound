@@ -50,6 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/BookClose.unity
     guid: 90cbe1b5e420df8438af89ee6b461177
+  - enabled: 1
+    path: Assets/Scenes/Menu/PlayersReady.unity
+    guid: 614c821f95f848242b33b428430ff200
   - enabled: 0
     path: Assets/Scenes/Beauty_Corner.unity
     guid: c4f3b6b46da34b1408172e40ff0ba1ff
