@@ -229,14 +229,15 @@ MonoBehaviour:
   crayon: {fileID: 0}
   target: {fileID: 0}
   draw: {fileID: 0}
-  circle: {fileID: 7834181591998765289, guid: 364340fd314030e4cbb3368052eea674, type: 3}
-  cross: {fileID: 5839820706974066888, guid: d4b1b870fd504f14ba5d40e3ffca4f5d, type: 3}
+  circle: {fileID: -491652977937866883, guid: 1f661f14e9166674ebf27980b1acb459, type: 3}
+  cross: {fileID: -4649783200906476701, guid: 1f661f14e9166674ebf27980b1acb459, type: 3}
   redCrayon: {fileID: 8166710274925509176, guid: 13069e5f55310a24b90c07b6f993d004, type: 3}
   greenCrayon: {fileID: -6099873399732076034, guid: e5cc1383ea0462348a1240ac4231aa2d, type: 3}
   blueCrayon: {fileID: -2615874204119335, guid: 2a7c4a67846ecf241b1f03254e88ed30, type: 3}
   eraser: {fileID: 350078672662042938, guid: 5690ed4769ac16840965321f6b435c9c, type: 3}
   setCrayonScale: 1
-  targetScale: 1
+  targetScale: 0.75
   eraserTargetMod: 2
   adjustHandX: 52.5
   adjustHandY: 117.5
+  currentResolution: {x: 1920, y: 1080}

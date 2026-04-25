@@ -97,7 +97,8 @@ public class Hand : MonoBehaviour
             crayon.GetComponent<UnityEngine.UI.Image>().enabled = false;
         }
 
-        if (hit.collider != null && hit.collider.CompareTag("NoDraw"))
+        // Show cross only when hovering a "NoDraw" object that matches the currently selected crayon.
+        if (IsNoDrawForCurrentBrush(hit))
         {
             target.GetComponent<UnityEngine.UI.Image>().sprite = cross;
         }
@@ -173,5 +174,32 @@ public class Hand : MonoBehaviour
             adjustHandX = startingValues.x;
             adjustHandY = startingValues.y;
         }
+    }
+
+    // Returns true when the current brush should show the cross for the provided hit.
+    bool IsNoDrawForCurrentBrush(RaycastHit2D hit)
+    {
+        if (hit.collider == null)
+            return false;
+
+        // Map brush index to corresponding NoDraw tag.
+        int brush = draw.GetBrushIndex();
+        switch (brush)
+        {
+            case 0: // red
+                if (hit.collider.CompareTag("NoDrawRed")) return true;
+                break;
+            case 1: // green
+                if (hit.collider.CompareTag("NoDrawGreen")) return true;
+                break;
+            case 2: // blue
+                if (hit.collider.CompareTag("NoDrawBlue")) return true;
+                break;
+            default:
+                break;
+        }
+
+        // Fallback: preserve previous behavior if there is a generic "NoDraw" tag.
+        return hit.collider.CompareTag("NoDraw");
     }
 }

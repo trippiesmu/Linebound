@@ -4787,6 +4787,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint
       objectReference: {fileID: 0}
+    - target: {fileID: 8376180318533435416, guid: 4660c68f0409b9f478010c3134833044, type: 3}
+      propertyPath: targetScale
+      value: 0.5625
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

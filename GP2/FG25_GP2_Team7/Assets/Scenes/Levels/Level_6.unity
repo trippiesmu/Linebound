@@ -56525,7 +56525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8376180318533435416, guid: 4660c68f0409b9f478010c3134833044, type: 3}
       propertyPath: targetScale
-      value: 0.5
+      value: 0.375
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59169,6 +59169,14 @@ PrefabInstance:
     - target: {fileID: 5476592758764879368, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064850093022846936, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064850093022846936, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8400690601004467013, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
