@@ -2,8 +2,9 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
-using static UnityEditor.Experimental.GraphView.GraphView;
+using UnityEngine.UI;
 
 public class BookOpenScript : MonoBehaviour
 {
@@ -28,18 +29,31 @@ public class BookOpenScript : MonoBehaviour
     public GameObject LevelSelectInteractbles1; // the level icons in settings page
     public GameObject LevelSelectInteractbles2; // the level icons in the level select page
     public GameObject SettingsText; // the sprites of quit and credits in the settings page
+    public GameObject SliderShit; // the sprites of sliders
     public SpriteRenderer Credits;
     bool creditsRunner = false;
     private float timer = 0;
     int temp = 0;
+    int temp2 = 255;
     public GameObject Sliders;
-
+    private float musicvol;
+    private float sfxvol;
+    public Slider SFXSlider;
+    public Slider musicSlider;
+    public Image SliderPic1;
+    public Image SliderPic2;
+    private bool SliderShower;
+    private bool SliderCloser;
 
 
     public void Start() // turns the cursor back to normal
     {
         //Cursor.visible = true;
+        LoadPrefsSFX();
+        LoadPrefsMusic();
         Credits.color = Credits.GetComponent<SpriteRenderer>().color;
+        SliderPic1.color = SliderPic1.GetComponent<Image>().color;
+        SliderPic2.color = SliderPic2.GetComponent<Image>().color;
     }
 
     private void Update()
@@ -59,6 +73,38 @@ public class BookOpenScript : MonoBehaviour
                 temp = 0;
             }
         }
+        if (SliderShower)
+        {
+            timer += Time.deltaTime;
+            if (timer >= 0.001f && temp < 255)
+            {
+                temp += 5;
+                SliderPic1.color = new Color(SliderPic1.color.r, SliderPic1.color.g, SliderPic1.color.b, temp / 255f);
+                SliderPic2.color = new Color(SliderPic2.color.r, SliderPic2.color.g, SliderPic2.color.b, temp / 255f);
+                timer = 0f;
+            }
+            else if (temp == 255)
+            {
+                SliderShower = false;
+                temp = 0;
+            }
+        }
+        if (SliderCloser)
+        {
+            timer += Time.deltaTime;
+            if (timer >= 0.001f && temp2 > 0)
+            {
+                temp2 -= 5;
+                SliderPic1.color = new Color(SliderPic1.color.r, SliderPic1.color.g, SliderPic1.color.b, temp2 / 255f);
+                SliderPic2.color = new Color(SliderPic2.color.r, SliderPic2.color.g, SliderPic2.color.b, temp2 / 255f);
+                timer = 0f;
+            }
+            else if (temp2 == 0)
+            {
+                SliderCloser = false;
+                temp2 = 0;
+            }
+        }
     }
     public void TempCredits() // shows the credit UI
     {
@@ -68,11 +114,42 @@ public class BookOpenScript : MonoBehaviour
     public void MusicVolume(float volume) //take a wild fucking guess at what these are
     {
         MusicMixer.SetFloat("MusicVol", volume);
+        musicvol = volume;
+        SavePrefsMusic(volume);
     } 
     public void SFXVolume(float volume)
     {
         SFXMixer.SetFloat("SFXVol", volume);
+        sfxvol = volume;
+        SavePrefsSFX(volume);
+
     } //take a wild fucking guess at what these are
+
+    private void SavePrefsMusic(float volume)
+    {
+        PlayerPrefs.SetFloat("MusicVol", volume);
+    }
+    private void SavePrefsSFX(float volume)
+    {
+        PlayerPrefs.SetFloat("SFXVol", volume);
+    }
+    private void LoadPrefsMusic()
+    {
+        var newVolume = PlayerPrefs.GetFloat("MusicVol");
+        MusicMixer.SetFloat("MusicVol", newVolume);
+        MusicVolume(newVolume);
+    }
+    private void LoadPrefsSFX()
+    {
+        
+        var newVolume1 = PlayerPrefs.GetFloat("MusicVol");
+        var newVolume2 = PlayerPrefs.GetFloat("SFXVol");
+        SFXMixer.SetFloat("SFXVol", newVolume1);
+        MusicMixer.SetFloat("MusicVol", newVolume2);
+        SFXSlider.value = newVolume1;
+        musicSlider.value = newVolume2;
+    }
+
     public void Button()
     {
         StartCoroutine(joe());
@@ -145,7 +222,9 @@ public class BookOpenScript : MonoBehaviour
         yield return new WaitForSeconds(0.80f);
         SettingsText.SetActive(false);
         OptionsButton.SetActive(true);
+        SliderShit.SetActive(true);
         Sliders.SetActive(false);
+        SliderShower = true;
 
 
     }
@@ -153,6 +232,7 @@ public class BookOpenScript : MonoBehaviour
     {
         AudioSource.pitch = Random.Range(0.9f, 1.1f);
         UI.Play();
+        SliderCloser = true;
         OptionsButton.SetActive(false);
         SettingsText.SetActive(true);
         Sliders.SetActive(true);
@@ -160,8 +240,12 @@ public class BookOpenScript : MonoBehaviour
         AudioSource.clip = AudioClips[2];
         AudioSource.pitch = Random.Range(0.9f, 1.1f);
         AudioSource.Play();
+        yield return new WaitForSeconds(0.40f);
+        SliderShit.SetActive(false);
         yield return new WaitForSeconds(0.80f);
         Credits.color = new Color(1f, 1f, 1f, 0);
+        //SliderPic2.color = new Color(1f, 1f, 1f, 0);
+        //SliderPic1.color = new Color(1f, 1f, 1f, 0);
         Text.SetActive(false);
         Buttons.SetActive(true);
     }
