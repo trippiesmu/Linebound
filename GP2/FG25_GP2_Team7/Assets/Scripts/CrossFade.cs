@@ -41,7 +41,7 @@ public class CrossFade : MonoBehaviour
         MainMenuMusicAudio = GameObject.FindWithTag("MainMenuMusic");
         if (LevelIndex == 1)
         {
-            SceneManager.LoadSceneAsync(15);
+            SceneManager.LoadSceneAsync(17);
         }
         else
         {
