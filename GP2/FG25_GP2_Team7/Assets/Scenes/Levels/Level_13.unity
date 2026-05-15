@@ -39200,6 +39200,10 @@ PrefabInstance:
       propertyPath: Collectible
       value: 
       objectReference: {fileID: 1248835129}
+    - target: {fileID: 5436702847793054940, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+      propertyPath: MaxTimeGoal
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 5476592758764879368, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 3
@@ -42559,6 +42563,7 @@ Transform:
   - {fileID: 1509664310}
   - {fileID: 1947280209}
   - {fileID: 1796199117}
+  - {fileID: 1640317455}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1158379022
@@ -56775,7 +56780,7 @@ Transform:
   - {fileID: 2101302488}
   - {fileID: 880802948}
   - {fileID: 819620954}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1154819028}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1643767988
 GameObject:
@@ -73362,7 +73367,6 @@ SceneRoots:
   - {fileID: 562432579}
   - {fileID: 879412876}
   - {fileID: 1154819028}
-  - {fileID: 1640317455}
   - {fileID: 1121866607}
   - {fileID: 672783336}
   - {fileID: 1774642399}
