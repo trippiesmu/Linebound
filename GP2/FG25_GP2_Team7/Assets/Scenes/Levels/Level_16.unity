@@ -1526,6 +1526,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5766896014104098711, guid: 1bc63e7a5c89a7d409747bb34b894653, type: 3}
+      propertyPath: StarUI
+      value: 
+      objectReference: {fileID: 2044621952}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9410,6 +9414,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+--- !u!114 &2044621952 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5436702847793054940, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+  m_PrefabInstance: {fileID: 2044621951}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f7e28765e01904ab8a4b1b0b35bde1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelEndStars
 --- !u!1001 &2048590345
 PrefabInstance:
   m_ObjectHideFlags: 0
