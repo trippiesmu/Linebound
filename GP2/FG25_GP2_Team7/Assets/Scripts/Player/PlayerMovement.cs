@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     //Used to see if the player gets to jump
     bool Grounded;
+    bool HasEmoted = false;
     bool JumpCheck = false;
     bool JumpCooldownBool = false;
     Bounds colliderSize;
@@ -167,14 +168,17 @@ public class PlayerMovement : MonoBehaviour
         if (Emote1.WasPressedThisFrame())
         {
             animator.SetTrigger("Emote_1");
+            if (!HasEmoted) { HasEmoted = true; AchievementManager.Instance?.UnlockAchievement("ACH_FIRST_EMOTE"); }
         }
         if (Emote2.WasPressedThisFrame())
         {
             animator.SetTrigger("Emote_2");
+            if (!HasEmoted) { HasEmoted = true; AchievementManager.Instance?.UnlockAchievement("ACH_FIRST_EMOTE"); }
         }
         if (Emote3.WasPressedThisFrame())
         {
             animator.SetTrigger("Emote_3");
+            if (!HasEmoted) { HasEmoted = true; AchievementManager.Instance?.UnlockAchievement("ACH_FIRST_EMOTE"); }
         }
 
         if (RestartAction.WasPressedThisFrame())

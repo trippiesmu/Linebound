@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,28 +9,21 @@ public class LevelEndStars : MonoBehaviour
 {
     [SerializeField] Draw paint;
     int Level;
-
     [Header("Star Goals")]
     [HideInInspector] public bool LevelFinished = false;
     //[SerializeField] float paintGoal;
     [SerializeField] public float MaxTimeGoal;
     [SerializeField] GameObject Collectible;
-
     [Header("Star prefabs")]
     [SerializeField] Texture NotGained;
     [SerializeField] Texture Gained;
-
     List<RawImage> Stars = new List<RawImage>();
-
     StarsClass TheseStars = new StarsClass(false, false, false);
-
-
     public class StarsClass
     {
         public bool Star1 = false;
         public bool Star2 = false;
         public bool Star3 = false;
-
         public StarsClass(bool star1, bool star2, bool star3)
         {
             Star1 = star1;
@@ -42,28 +36,23 @@ public class LevelEndStars : MonoBehaviour
             Star2 = Star2 || star2;
             Star3 = Star3 || star3;
         }
-
         public int Return()
         {
             int i = 0;
             if (Star1) i += 100;
             if (Star2) i += 10;
             if (Star3) i += 1;
-
             return i;
         }
-
         public int StarCount()
         {
             int i = 0;
             if (Star1) i++;
             if (Star2) i++;
             if (Star3) i++;
-
             return i;
         }
     }
-
     void Start()
     {
         Time.timeScale = 1;
@@ -73,22 +62,14 @@ public class LevelEndStars : MonoBehaviour
             Stars.Add(child);
             child.texture = NotGained;
         }
-
         Level = SceneManager.GetActiveScene().buildIndex;
-
         Load();
-
         this.gameObject.SetActive(false);
-
     }
-
-
-
     private void OnEnable()
     {
         int CurrentStars = TheseStars.StarCount();
         int GainedStars = 0;
-
         if (LevelFinished)
         {
             GainedStars++;
@@ -107,21 +88,31 @@ public class LevelEndStars : MonoBehaviour
                 TheseStars.Update(false, false, true);
             }
         }
-
-        if(GainedStars > CurrentStars)
+        if (GainedStars > CurrentStars)
             Save();
-    }
 
+        // 3 star achievement
+        if (LevelFinished && TheseStars.StarCount() == 3)
+        {
+            if (AchievementManager.Instance != null)
+                AchievementManager.Instance.UnlockAchievement("ACH_3STAR_LEVEL_" + Level);
+        }
+
+        // 100% achievement
+        if (LevelFinished && AllLevelsThreeStars())
+        {
+            if (AchievementManager.Instance != null)
+                AchievementManager.Instance.UnlockAchievement("ACH_100_PERCENT");
+        }
+    }
     void Save()
     {
         PlayerPrefs.SetInt(Level.ToString(), TheseStars.Return());
         PlayerPrefs.Save();
     }
-
     void Load()
     {
         int i = PlayerPrefs.GetInt(Level.ToString(), 0);
-
         bool star1 = false, star2 = false, star3 = false;
         if (i >= 100)
         {
@@ -139,7 +130,15 @@ public class LevelEndStars : MonoBehaviour
             if (i == 11) star3 = true;
         }
         else if (i == 1) star3 = true;
-
         TheseStars = new StarsClass(star1, star2, star3);
+    }
+    bool AllLevelsThreeStars()
+    {
+        for (int i = 1; i <= 15; i++)
+        {
+            int saved = PlayerPrefs.GetInt(i.ToString(), 0);
+            if (saved != 111) return false;
+        }
+        return true;
     }
 }
