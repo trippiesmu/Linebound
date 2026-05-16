@@ -29,9 +29,5 @@ public class Clock_Visual : MonoBehaviour
             slider.value = TimeLeft;
             Pointer.transform.localRotation = Quaternion.Euler(0, 0, TimeLeft * 360);
         }
-        else
-        {
-            print("yo");
-        }
     }
 }
