@@ -39,8 +39,9 @@ public class CrossFade : MonoBehaviour
         Animator.SetTrigger("Start");
         yield return new WaitForSeconds(1f);
         MainMenuMusicAudio = GameObject.FindWithTag("MainMenuMusic");
-        if (LevelIndex == 1)
+        if (NonPersistentData.ReadyChecked == false)
         {
+            NonPersistentData.SceneToLoad = LevelIndex;
             SceneManager.LoadSceneAsync(17);
         }
         else

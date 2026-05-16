@@ -44,6 +44,7 @@ public class ReadyCheck : MonoBehaviour
         }
         if (Player1 && Player2)
         {
+            NonPersistentData.ReadyChecked = true;
             StartCoroutine(Crossfade());
         }
     }
@@ -54,6 +55,6 @@ public class ReadyCheck : MonoBehaviour
         yield return new WaitForSeconds(1f);
         MainMenuMusicAudio = GameObject.FindWithTag("MainMenuMusic");
         Destroy(MainMenuMusicAudio);
-        SceneManager.LoadScene(1, LoadSceneMode.Single);
+        SceneManager.LoadScene(NonPersistentData.SceneToLoad, LoadSceneMode.Single);
     }
 }

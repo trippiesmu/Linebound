@@ -116,6 +116,7 @@ public class Draw : MonoBehaviour
             }
         }
 
+        /*
         if (Keyboard.current.pageUpKey.wasPressedThisFrame && (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings-1))
         {
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
@@ -124,11 +125,17 @@ public class Draw : MonoBehaviour
         {
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex - 1);
         }
+        */
     }
 
     void Drawing()
     {
-        if (currentLineRenderer != null && Mouse.current.rightButton.wasPressedThisFrame)
+        if (Time.timeScale == 0)
+        {
+            if (currentLineRenderer != null)
+                EndLine();
+        }
+        else if (currentLineRenderer != null && Mouse.current.rightButton.wasPressedThisFrame)
         {
             totalCrayonUsed -= currentLineRenderer.GetComponent<Brush>().GetLength();
             EndLine();
@@ -141,10 +148,10 @@ public class Draw : MonoBehaviour
                 Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
                 RaycastHit2D hit = Physics2D.GetRayIntersection(ray, Mathf.Infinity);
                 if (hit.collider == null || (!hit.collider.CompareTag("Wall") && !hit.collider.CompareTag("NoDraw") && !(brushIndex == 0 && hit.collider.CompareTag("NoDrawRed"))
-                && !(brushIndex == 1 && hit.collider.CompareTag("NoDrawGreen")) && !(brushIndex == 2 && hit.collider.CompareTag("NoDrawBlue")) 
+                && !(brushIndex == 1 && hit.collider.CompareTag("NoDrawGreen")) && !(brushIndex == 2 && hit.collider.CompareTag("NoDrawBlue"))
                 && !(hit.collider.CompareTag("Brush") && brushIndex == 1 && stackJumpPad == false)))
                 {
-                    if (Mouse.current.leftButton.wasPressedThisFrame && (brushIndex == 0 && remainingRedCrayon > 0f || brushIndex == 1 && remainingGreenCrayon > 0f 
+                    if (Mouse.current.leftButton.wasPressedThisFrame && (brushIndex == 0 && remainingRedCrayon > 0f || brushIndex == 1 && remainingGreenCrayon > 0f
                         || brushIndex == 2 && remainingBlueCrayon > 0f))
                     {
                         tempRed = remainingRedCrayon;
