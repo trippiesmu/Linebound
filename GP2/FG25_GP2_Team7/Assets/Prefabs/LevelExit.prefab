@@ -130,7 +130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelTransition
   StarUI: {fileID: 0}
-  WinSFX: {fileID: 9084269088949906201}
 --- !u!61 &289970555695768692
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -200,7 +199,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0.37
+  Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
