@@ -5447,6 +5447,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0eb5aee953e480340b9540d9459de729, type: 3}
+--- !u!1 &1433376925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6588207234780327249, guid: 0eb5aee953e480340b9540d9459de729, type: 3}
+  m_PrefabInstance: {fileID: 1433376924}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1444137716
 GameObject:
   m_ObjectHideFlags: 0
@@ -6814,6 +6819,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5436702847793054940, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
+      propertyPath: Collectible
+      value: 
+      objectReference: {fileID: 1433376925}
     - target: {fileID: 5436702847793054940, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: MaxTimeGoal
       value: 15
