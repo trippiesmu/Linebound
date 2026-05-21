@@ -365,6 +365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Transistion
       objectReference: {fileID: 0}
+    - target: {fileID: 1297405815543401816, guid: ad58a1a1a5d1b824685ebbcca4412341, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -963,7 +967,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.484}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.347935, y: -24.645504}
+  m_AnchoredPosition: {x: 18.91, y: -24.3}
   m_SizeDelta: {x: 25.24084, y: 28.41523}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1791002241
@@ -986,7 +990,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -781759339580406997, guid: 62ea17e0faf7155439b4b5e7c83f902b, type: 3}
+  m_Sprite: {fileID: -6088322297091392424, guid: dc273e7589be35246a961943d472c7f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
