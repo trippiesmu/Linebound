@@ -10792,7 +10792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8400690601004467013, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8926997604873644089, guid: 35a3cbb637e1f8a4bb3fd41b65ef8f1c, type: 3}
       propertyPath: SceneName
