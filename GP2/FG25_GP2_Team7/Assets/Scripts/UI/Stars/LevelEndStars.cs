@@ -70,26 +70,42 @@ public class LevelEndStars : MonoBehaviour
     {
         int CurrentStars = TheseStars.StarCount();
         int GainedStars = 0;
+        bool star1 = false, star2 = false, star3 = false;
+
         if (LevelFinished)
         {
+            star1 = true;
             GainedStars++;
-            TheseStars.Update(true, false, false);
-            Stars[0].texture = Gained;
+
             if (Time.timeSinceLevelLoad <= MaxTimeGoal)
             {
+                star2 = true;
                 GainedStars++;
-                TheseStars.Update(false, true, false);
-                Stars[1].texture = Gained;
             }
+
             if (!Collectible.activeSelf)
             {
+                star3 = true;
                 GainedStars++;
-                Stars[2].texture = Gained;
-                TheseStars.Update(false, false, true);
             }
         }
+
+        // Only save if this run is strictly better
         if (GainedStars > CurrentStars)
+        {
+            TheseStars = new StarsClass(star1, star2, star3);
+            Stars[0].texture = star1 ? Gained : NotGained;
+            Stars[1].texture = star2 ? Gained : NotGained;
+            Stars[2].texture = star3 ? Gained : NotGained;
             Save();
+        }
+        else
+        {
+            // Show previously saved stars
+            Stars[0].texture = TheseStars.Star1 ? Gained : NotGained;
+            Stars[1].texture = TheseStars.Star2 ? Gained : NotGained;
+            Stars[2].texture = TheseStars.Star3 ? Gained : NotGained;
+        }
 
         // 3 star achievement
         if (LevelFinished && TheseStars.StarCount() == 3)
