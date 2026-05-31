@@ -14063,7 +14063,7 @@ GameObject:
   - component: {fileID: 1381489890}
   m_Layer: 0
   m_Name: boookmark_0
-  m_TagString: Untagged
+  m_TagString: NoDraw
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
