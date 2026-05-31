@@ -90,32 +90,27 @@ public class LevelEndStars : MonoBehaviour
             }
         }
 
+        // Always show current run stars
+        Stars[0].texture = star1 ? Gained : NotGained;
+        Stars[1].texture = star2 ? Gained : NotGained;
+        Stars[2].texture = star3 ? Gained : NotGained;
+
         // Only save if this run is strictly better
         if (GainedStars > CurrentStars)
         {
             TheseStars = new StarsClass(star1, star2, star3);
-            Stars[0].texture = star1 ? Gained : NotGained;
-            Stars[1].texture = star2 ? Gained : NotGained;
-            Stars[2].texture = star3 ? Gained : NotGained;
             Save();
         }
-        else
-        {
-            // Show previously saved stars
-            Stars[0].texture = TheseStars.Star1 ? Gained : NotGained;
-            Stars[1].texture = TheseStars.Star2 ? Gained : NotGained;
-            Stars[2].texture = TheseStars.Star3 ? Gained : NotGained;
-        }
 
-        // 3 star achievement
-        if (LevelFinished && TheseStars.StarCount() == 3)
+        // 3 star achievement — only if current run has 3
+        if (LevelFinished && GainedStars == 3)
         {
             if (AchievementManager.Instance != null)
                 AchievementManager.Instance.UnlockAchievement("ACH_3STAR_LEVEL_" + Level);
         }
 
-        // 100% achievement
-        if (LevelFinished && AllLevelsThreeStars())
+        // 100% achievement — only if current run has 3
+        if (LevelFinished && GainedStars == 3 && AllLevelsThreeStars())
         {
             if (AchievementManager.Instance != null)
                 AchievementManager.Instance.UnlockAchievement("ACH_100_PERCENT");
