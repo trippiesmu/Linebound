@@ -4213,6 +4213,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackBorders2
       objectReference: {fileID: 0}
+    - target: {fileID: 3258364183712461177, guid: c64eeafa811deae449235502c3a75a24, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 435.54288
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258364183712461177, guid: c64eeafa811deae449235502c3a75a24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -212.8762
+      objectReference: {fileID: 0}
     - target: {fileID: 4729049365631741951, guid: c64eeafa811deae449235502c3a75a24, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.4908
@@ -4252,6 +4260,14 @@ PrefabInstance:
     - target: {fileID: 4729049365631741951, guid: c64eeafa811deae449235502c3a75a24, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727374958327024018, guid: c64eeafa811deae449235502c3a75a24, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 571.4372
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727374958327024018, guid: c64eeafa811deae449235502c3a75a24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 333.7802
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
