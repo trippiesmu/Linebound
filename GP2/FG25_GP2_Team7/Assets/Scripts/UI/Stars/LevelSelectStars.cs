@@ -47,6 +47,8 @@ public class LevelSelectStars : MonoBehaviour
     }
     private void OnEnable()
     {
+        // ENTFERNT: Debug Log und Achievement Check vor Load()
+
         int temp = Level - 1;
         if (temp > 1)
         {
@@ -73,6 +75,13 @@ public class LevelSelectStars : MonoBehaviour
             {
                 Stars[i].sprite = Gained;
             }
+        }
+
+        // Nur dieser Check bleibt — nach Load()
+        if (TheseStars.StarCount() == 3)
+        {
+            if (AchievementManager.Instance != null)
+                AchievementManager.Instance.UnlockAchievement("ACH_3STAR_LEVEL_" + Level);
         }
     }
     void Load()
