@@ -1,5 +1,4 @@
 using Steamworks;
-using Steamworks.Data;
 using UnityEngine;
 
 public class AchievementManager : MonoBehaviour
@@ -15,14 +14,10 @@ public class AchievementManager : MonoBehaviour
 
     public void UnlockAchievement(string apiName)
     {
-        if (!SteamClient.IsValid)
-        {
-            Debug.LogWarning("Steam not running, can't unlock achievement.");
-            return;
-        }
+        if (!SteamClient.IsValid) return;
 
-        Achievement ach = new Achievement(apiName);
+        var ach = new Steamworks.Data.Achievement(apiName);
         ach.Trigger();
-        Debug.Log("Achievement unlocked: " + apiName);
+        Debug.Log("Achievement triggered: " + apiName);
     }
 }
