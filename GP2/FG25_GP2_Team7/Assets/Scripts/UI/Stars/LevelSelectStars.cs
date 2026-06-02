@@ -1,7 +1,9 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 public class LevelSelectStars : MonoBehaviour
 {
     [SerializeField] int Level;
@@ -47,8 +49,6 @@ public class LevelSelectStars : MonoBehaviour
     }
     private void OnEnable()
     {
-        // ENTFERNT: Debug Log und Achievement Check vor Load()
-
         int temp = Level - 1;
         if (temp > 1)
         {
@@ -76,18 +76,33 @@ public class LevelSelectStars : MonoBehaviour
                 Stars[i].sprite = Gained;
             }
         }
-
-        // Nur dieser Check bleibt — nach Load()
-        if (TheseStars.StarCount() == 3)
-        {
-            if (AchievementManager.Instance != null)
-                AchievementManager.Instance.UnlockAchievement("ACH_3STAR_LEVEL_" + Level);
-        }
+        StartCoroutine(DelayedAchievementCheck());
     }
+
+    IEnumerator DelayedAchievementCheck()
+    {
+        float timeout = 5f;
+        while (!Steamworks.SteamClient.IsValid && timeout > 0)
+        {
+            timeout -= Time.deltaTime;
+            yield return null;
+        }
+
+        yield return new WaitForSeconds(0.3f);
+
+        if (!Steamworks.SteamClient.IsValid) yield break;
+        if (AchievementManager.Instance == null) yield break;
+
+        if (TheseStars.StarCount() == 3)
+            AchievementManager.Instance.UnlockAchievement("ACH_3STAR_LEVEL_" + Level);
+
+        if (Level == 1 && AllLevelsThreeStars())
+            AchievementManager.Instance.UnlockAchievement("ACH_100_PERCENT");
+    }
+
     void Load()
     {
         int i = PlayerPrefs.GetInt(Level.ToString(), 0);
-        Debug.Log(Level + " had " + i);
         bool star1 = false, star2 = false, star3 = false;
         if (i >= 100)
         {
@@ -105,6 +120,15 @@ public class LevelSelectStars : MonoBehaviour
             if (i == 11) star3 = true;
         }
         else if (i == 1) star3 = true;
-        TheseStars.Update(star1, star2, star3);
+        TheseStars = new StarsClass(star1, star2, star3);
+    }
+
+    bool AllLevelsThreeStars()
+    {
+        for (int i = 1; i <= 15; i++)
+        {
+            if (PlayerPrefs.GetInt(i.ToString(), 0) != 111) return false;
+        }
+        return true;
     }
 }
