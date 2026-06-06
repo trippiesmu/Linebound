@@ -36,8 +36,8 @@ public class BookOpenScript : MonoBehaviour
     int temp = 0;
     int temp2 = 255;
     public GameObject Sliders;
-    private float musicvol;
-    private float sfxvol;
+    private float musicvol = 0.6885324f;
+    private float sfxvol = 0.6885324f;
     public Slider SFXSlider;
     public Slider musicSlider;
     public Image SliderPic1;
@@ -50,7 +50,7 @@ public class BookOpenScript : MonoBehaviour
     {
         //Cursor.visible = true;
         LoadPrefsSFX();
-        LoadPrefsMusic();
+        //LoadPrefsMusic();
         Credits.color = Credits.GetComponent<SpriteRenderer>().color;
         SliderPic1.color = SliderPic1.GetComponent<Image>().color;
         SliderPic2.color = SliderPic2.GetComponent<Image>().color;
@@ -113,39 +113,41 @@ public class BookOpenScript : MonoBehaviour
 
     public void MusicVolume(float volume) //take a wild fucking guess at what these are
     {
-        MusicMixer.SetFloat("MusicVol", volume);
+        MusicMixer.SetFloat("MusicVol", Mathf.Log10(volume) * 20);
         musicvol = volume;
-        SavePrefsMusic(volume);
+        PlayerPrefs.SetFloat("MusicVol", musicvol);
+        PlayerPrefs.Save();
     } 
     public void SFXVolume(float volume)
     {
-        SFXMixer.SetFloat("SFXVol", volume);
+        SFXMixer.SetFloat("SFXVol", Mathf.Log10(volume) * 20);
         sfxvol = volume;
-        SavePrefsSFX(volume);
+        PlayerPrefs.SetFloat("SFXVol", sfxvol);
+        PlayerPrefs.Save();
 
     } //take a wild fucking guess at what these are
 
-    private void SavePrefsMusic(float volume)
-    {
-        PlayerPrefs.SetFloat("MusicVol", volume);
-    }
-    private void SavePrefsSFX(float volume)
-    {
-        PlayerPrefs.SetFloat("SFXVol", volume);
-    }
-    private void LoadPrefsMusic()
-    {
-        var newVolume = PlayerPrefs.GetFloat("MusicVol");
-        MusicMixer.SetFloat("MusicVol", newVolume);
-        MusicVolume(newVolume);
-    }
+    //private void SavePrefsMusic(float volume)
+    //{
+    //    PlayerPrefs.SetFloat("MusicVol", volume);
+    //}
+    //private void SavePrefsSFX(float volume)
+    //{
+    //    PlayerPrefs.SetFloat("SFXVol", volume);
+    //}
+    //private void LoadPrefsMusic()
+    //{
+    //    var newVolume = PlayerPrefs.GetFloat("MusicVol");
+    //    MusicMixer.SetFloat("MusicVol", newVolume);
+    //    MusicVolume(newVolume);
+    //}
     private void LoadPrefsSFX()
     {
-        
+
         var newVolume1 = PlayerPrefs.GetFloat("MusicVol");
         var newVolume2 = PlayerPrefs.GetFloat("SFXVol");
-        SFXMixer.SetFloat("SFXVol", newVolume1);
-        MusicMixer.SetFloat("MusicVol", newVolume2);
+        SFXMixer.SetFloat("SFXVol", Mathf.Log10(newVolume1) * 20);
+        MusicMixer.SetFloat("MusicVol", Mathf.Log10(newVolume2) * 20);
         SFXSlider.value = newVolume1;
         musicSlider.value = newVolume2;
     }
