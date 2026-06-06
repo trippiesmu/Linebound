@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FPSLimiter : MonoBehaviour
 {
-    public int FPS = 180;
+    public int FPS = 165;
     
     
     void Start()
