@@ -201,5 +201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57bf42f832638fb48828f4ef01fa5bfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BouncePad
+  draw: {fileID: 0}
+  pos1: {x: 0, y: 0}
+  pos2: {x: 0, y: 0}
   bounceForce: 25
   bounceMod: 1.5
+  bounceInputBuffer: 0.3

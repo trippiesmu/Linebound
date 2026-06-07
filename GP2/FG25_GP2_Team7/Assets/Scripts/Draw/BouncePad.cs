@@ -18,6 +18,10 @@ public class BouncePad : MonoBehaviour
     float currentBounceMod = 1f;
     InputAction JumpAction;
 
+    // Buffer window (seconds) that allows a jump press shortly before collision to count
+    [SerializeField] float bounceInputBuffer = 0.3f;
+    float lastJumpPressedTime = Mathf.NegativeInfinity;
+
     void Start()
     {
         JumpAction = InputSystem.actions.FindAction("Jump");
@@ -27,6 +31,12 @@ public class BouncePad : MonoBehaviour
 
     void Update()
     {
+        // Track the time of the most recent jump press for input buffering
+        if (JumpAction.WasPressedThisFrame())
+        {
+            lastJumpPressedTime = Time.time;
+        }
+
         if (JumpAction.IsPressed())
         {
             currentBounceMod = bounceMod;
@@ -75,28 +85,41 @@ public class BouncePad : MonoBehaviour
         {
             player = collision.gameObject;
 
+            // Determine whether to apply the bounce mod:
+            // - if jump is currently held, or
+            // - if jump was pressed within the buffer window right before the collision
+            bool jumpBuffered = (Time.time - lastJumpPressedTime) <= bounceInputBuffer;
+            bool jumpHeld = JumpAction.IsPressed();
+            float effectiveMod = (jumpHeld || jumpBuffered) ? bounceMod : 1f;
+
+            // Consume the buffered press so it isn't reused for subsequent collisions
+            if (jumpBuffered && !jumpHeld)
+            {
+                lastJumpPressedTime = Mathf.NegativeInfinity;
+            }
+
             if (draw.GetMoonJumpBool())
             {
                 if (isLeft(pos1, pos2, collision.transform.position))
                 {
-                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, yValue) * bounceForce * currentBounceMod, ForceMode2D.Impulse);
+                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, yValue) * bounceForce * effectiveMod, ForceMode2D.Impulse);
                 }
                 else
                 {
-                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, yValue) * bounceForce * currentBounceMod * -1, ForceMode2D.Impulse);
+                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, yValue) * bounceForce * effectiveMod * -1, ForceMode2D.Impulse);
                 }
             }
             else if (!draw.GetMoonJumpBool())
             {
                 if (isLeft(pos1, pos2, collision.transform.position))
                 {
-                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, 0) * bounceForce * currentBounceMod, ForceMode2D.Impulse);
-                    player.GetComponent<Rigidbody2D>().linearVelocityY = yValue * bounceForce * currentBounceMod;
+                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, 0) * bounceForce * effectiveMod, ForceMode2D.Impulse);
+                    player.GetComponent<Rigidbody2D>().linearVelocityY = yValue * bounceForce * effectiveMod;
                 }
                 else
                 {
-                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, 0) * bounceForce * currentBounceMod * -1, ForceMode2D.Impulse);
-                    player.GetComponent<Rigidbody2D>().linearVelocityY = yValue * bounceForce * currentBounceMod * -1;
+                    player.GetComponent<Rigidbody2D>().AddForce(new Vector2(xValue, 0) * bounceForce * effectiveMod * -1, ForceMode2D.Impulse);
+                    player.GetComponent<Rigidbody2D>().linearVelocityY = yValue * bounceForce * effectiveMod * -1;
                 }
             }
 
